@@ -1,0 +1,136 @@
+---
+title: "Diplomacy League"
+output: 
+  flexdashboard::flex_dashboard:
+    theme: default
+    orientation: rows
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(d3scatter)
+library(tidyverse)
+library(crosstalk)
+library(DT)
+
+# df <- read_csv("mtcars.csv")
+df <- mtcars
+```
+
+
+Standings
+===================================== 
+
+Row
+-----------------------------------------------------------------------
+
+### 1st Place
+
+```{r}
+valueBox("Justin", icon = "fa-trophy", color = "gold")
+```
+
+### 2nd Place
+
+```{r}
+valueBox("Ben", icon = "fa-trophy", color = "silver")
+```
+
+### 3rd Place
+
+```{r}
+valueBox("Andrew", icon = "fa-trophy", color = "tan")
+```
+
+Row
+-----------------------------------------------------------------------
+
+```{r}
+# d3heatmap(df, scale="column", colors="Blues")
+rankings <- data.frame(
+  player=c("Ben","Andrew","Sam","Justin","Tom","Alex","Mark"),
+  score=c(3,4,1,7,1,3,6)
+)
+knitr::kable(rankings)
+
+# DT::datatable(rankings)
+```
+
+Games
+===================================== 
+
+
+Crosstalk example
+===================================== 
+
+Inputs {.sidebar}
+-------------------------------------
+
+Let's put some text up here.
+
+```{r}
+# shiny inputs defined here
+shared_mtcars <- SharedData$new(df)
+bscols(
+  # widths = c(3),
+  list(
+    filter_checkbox("cyl", "Cylinders", shared_mtcars, ~cyl, inline = TRUE),
+    filter_slider("hp", "Horsepower", shared_mtcars, ~hp, width = "100%"),
+    filter_select("auto", "Automatic", shared_mtcars, ~ifelse(am == 0, "Yes", "No"))
+  )
+)
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+# d3scatter(shared_mtcars, ~wt, ~mpg, ~factor(cyl), width="100%", height=250)
+d3scatter(shared_mtcars, ~hp, ~qsec, ~factor(cyl), width="100%", height=250)
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+library(plotly)
+data(iris)
+
+plotClusters <- function(xvar, yvar, nclusters) {
+  clusters <- kmeans(iris[, 1:4], centers = nclusters)
+  clusters <- paste("Cluster", clusters$cluster)
+  
+  plot_ly(x = ~iris[[xvar]], y = ~iris[[yvar]], color = ~clusters,
+          type = "scatter", mode = "markers") %>% 
+    layout(xaxis = list(title=xvar), yaxis = list(title=yvar))
+}
+
+plotClusters("Sepal.Width", "Sepal.Length", 3)
+```
+
+### Chart C
+
+```{r}
+library(d3heatmap)
+# d3heatmap(df, scale="column", colors="Blues")
+d3scatter(shared_mtcars, ~hp, ~qsec, ~factor(cyl), width="100%", height=250)
+
+```
+
+
+Heatmap example
+===================================== 
+
+
+```{r}
+library(d3heatmap)
+# d3heatmap(df, scale="column", colors="Blues")
+d3scatter(shared_mtcars, ~hp, ~qsec, ~factor(cyl), width="100%", height=250)
+
+```
+
