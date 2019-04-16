@@ -13,9 +13,15 @@ library(d3scatter)
 library(tidyverse)
 library(crosstalk)
 library(DT)
+library(dbplyr)
+library(ggplot2)
 
 # df <- read_csv("mtcars.csv")
 df <- mtcars
+
+db <- DBI::dbConnect(odbc:: odbc(), 
+                driver = "SQLite Driver",
+                database = "test.sqlite")
 ```
 
 
@@ -52,13 +58,39 @@ rankings <- data.frame(
   player=c("Ben","Andrew","Sam","Justin","Tom","Alex","Mark"),
   score=c(3,4,1,7,1,3,6)
 )
-knitr::kable(rankings)
+
+db %>% 
+  src_dbi() %>%
+  tbl("players") %>%
+  knitr::kable()
 
 # DT::datatable(rankings)
 ```
 
 Games
 ===================================== 
+
+```{r}
+db %>% 
+  src_dbi() %>%
+  tbl("territories") %>%
+  as.data.frame() %>%
+  DT::datatable()
+```
+
+
+```{r}
+db %>% 
+  src_dbi() %>%
+  tbl("territories") %>%
+  ungroup() %>%
+  mutate(year = as.integer(str_match(url, "19\\d\\d")),
+         turn = str_match(url, "\\w+$")) %>%
+  filter(!is.na(year)) %>%
+  filter(turn=="winter") %>%
+  ggplot(aes(x=year, y=terr_count, color=player)) +
+  geom_line()
+```
 
 
 Crosstalk example
