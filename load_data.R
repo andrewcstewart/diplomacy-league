@@ -104,8 +104,9 @@ parse_orders <- function(game_data_path) {
                             result = jstring("result"),
                             result_reason = jstring("result_reason")) %>%
     mutate(game_url = path(url)) %>%
+    rename(player = country) %>%    
     separate(game_url, sep="/", into=c("junk","game.name","game.id","game.year","game.season"), fill='right') %>%
-    select(starts_with("game"),country,territory,type,from,to,result,result_reason)
+    select(starts_with("game"),player,territory,type,from,to,result,result_reason)
 }
 
 game_files %>%
@@ -127,8 +128,9 @@ parse_retreats <- function(game_data_path) {
                             type = jstring("type"),
                             result = jstring("result")) %>%
     mutate(game_url = path(url)) %>%
+    rename(player = country) %>%
     separate(game_url, sep="/", into=c("junk","game.name","game.id","game.year","game.season"), fill='right') %>%
-    select(starts_with("game"),country,territory,type,to,result)    
+    select(starts_with("game"),player,territory,type,to,result)    
 }
 
 game_files %>%
@@ -170,4 +172,6 @@ bind_rows(
   list(game.id="5694328282808320", league.game=FALSE),
   list(game.id="5841968584720384", league.game=FALSE),
   list(game.id="6298332016672768", league.game=FALSE),
-  list(game.id="6329975150477312", league.game=FALSE))
+  list(game.id="6329975150477312", league.game=FALSE)
+  ) %>% 
+  copy_to(dest=db, 'league.games', overwrite=TRUE, temporary=FALSE)
