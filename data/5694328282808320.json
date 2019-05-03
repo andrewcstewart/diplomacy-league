@@ -1,0 +1,5767 @@
+[
+  {
+    "url": "https://www.backstabbr.com/game/Major-Major-Major-Major/5694328282808320",
+    "territories": {
+      "Par": "France",
+      "Smy": "Turkey",
+      "Hol": "Russia",
+      "Swe": "Russia",
+      "Nap": "Turkey",
+      "Gre": "Turkey",
+      "Ven": "Russia",
+      "Mun": "Russia",
+      "War": "Russia",
+      "Lvp": "Russia",
+      "Mar": "France",
+      "Rum": "Russia",
+      "Mos": "Russia",
+      "Bul": "Turkey",
+      "Bud": "Russia",
+      "Tri": "Russia",
+      "Tun": "France",
+      "Bel": "Russia",
+      "Lon": "France",
+      "Stp": "Russia",
+      "Den": "Russia",
+      "Ber": "Russia",
+      "Con": "Turkey",
+      "Sev": "Russia",
+      "Rom": "Turkey",
+      "Vie": "Russia",
+      "Edi": "England",
+      "Por": "France",
+      "Nwy": "Russia",
+      "Ank": "Turkey",
+      "Kie": "Russia",
+      "Ser": "Turkey",
+      "Spa": "France",
+      "Bre": "France"
+    },
+    "unitsByPlayer": {
+      "Turkey": {
+        "Ser": "A",
+        "ION": "F",
+        "Nap": "F",
+        "Bul": "A",
+        "BLA": "F",
+        "Arm": "A",
+        "Rom": "F"
+      },
+      "England": {
+        "Edi": "F"
+      },
+      "Italy": {
+        "Tus": "F",
+        "Apu": "A"
+      },
+      "Russia": {
+        "Tri": "A",
+        "Sev": "F",
+        "Lvp": "F",
+        "Bel": "F",
+        "Kie": "A",
+        "Mos": "A",
+        "Hol": "F",
+        "Rum": "A",
+        "Ber": "A",
+        "Gal": "A",
+        "Cly": "F",
+        "Ven": "A",
+        "War": "A",
+        "Bud": "A"
+      },
+      "France": {
+        "Lvn": "A",
+        "ENG": "F",
+        "Bur": "A",
+        "Pic": "A",
+        "Lon": "A",
+        "Tun": "F",
+        "LYO": "F",
+        "MAO": "F",
+        "TYS": "F"
+      }
+    },
+    "orders": {}
+  },
+  {
+    "url": "https://www.backstabbr.com/game/Major-Major-Major-Major/5694328282808320/1908/spring",
+    "territories": {
+      "Par": "France",
+      "Smy": "Turkey",
+      "Hol": "France",
+      "Lon": "France",
+      "Nap": "Italy",
+      "Gre": "Turkey",
+      "Ven": "Italy",
+      "Mun": "Russia",
+      "War": "Russia",
+      "Mar": "France",
+      "Rum": "Russia",
+      "Mos": "Russia",
+      "Tun": "Turkey",
+      "Bud": "Russia",
+      "Tri": "Russia",
+      "Bul": "Turkey",
+      "Lvp": "England",
+      "Bel": "France",
+      "Swe": "Russia",
+      "Stp": "Russia",
+      "Den": "Russia",
+      "Ber": "France",
+      "Con": "Turkey",
+      "Sev": "Russia",
+      "Rom": "Italy",
+      "Vie": "Russia",
+      "Edi": "Russia",
+      "Por": "France",
+      "Nwy": "Russia",
+      "Ank": "Turkey",
+      "Kie": "Russia",
+      "Ser": "Turkey",
+      "Spa": "France",
+      "Bre": "France"
+    },
+    "unitsByPlayer": {
+      "Turkey": {
+        "Ser": "A",
+        "Smy": "F",
+        "Tun": "F",
+        "ION": "F",
+        "Bul": "A",
+        "BLA": "F",
+        "Arm": "A"
+      },
+      "England": {
+        "Yor": "F"
+      },
+      "Italy": {
+        "Nap": "A",
+        "ADR": "F",
+        "TYS": "F"
+      },
+      "Russia": {
+        "Tri": "A",
+        "Sev": "F",
+        "Rum": "A",
+        "Mos": "A",
+        "Edi": "F",
+        "Ukr": "A",
+        "NTH": "F",
+        "NWG": "F",
+        "Tyr": "A",
+        "HEL": "F",
+        "Mun": "A",
+        "War": "A",
+        "Kie": "A",
+        "Sil": "A"
+      },
+      "France": {
+        "Naf": "F",
+        "ENG": "F",
+        "Bur": "A",
+        "Hol": "A",
+        "Lon": "A",
+        "WES": "F",
+        "Ber": "A",
+        "Bre": "F",
+        "LYO": "F"
+      }
+    },
+    "orders": {
+      "Turkey": {
+        "Tun": {
+          "to": "ION",
+          "type": "MOVE",
+          "result": "FAILS",
+          "retreat": {
+            "to": "TYS",
+            "type": "MOVE",
+            "result": "SUCCEEDS"
+          },
+          "result_reason": "Attack strength is not greater than the defend strength"
+        },
+        "Smy": {
+          "to": "AEG",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "ION": {
+          "to": "Apu",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the prevent strength"
+        },
+        "Bul": {
+          "from": "Ser",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "BLA": {
+          "to": "Sev",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Arm"
+        },
+        "Arm": {
+          "to": "Sev",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the defend strength"
+        },
+        "Ser": {
+          "type": "HOLD",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        }
+      },
+      "England": {
+        "Yor": {
+          "to": "Lon",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the defend strength"
+        }
+      },
+      "Italy": {
+        "Nap": {
+          "to": "Apu",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the prevent strength"
+        },
+        "ADR": {
+          "to": "Ven",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "TYS": {
+          "to": "Rom",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        }
+      },
+      "Russia": {
+        "Tri": {
+          "to": "Bud",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Rum"
+        },
+        "Sev": {
+          "to": "Rum",
+          "result_reason": "Disrupted",
+          "type": "SUPPORT",
+          "result": "FAILS",
+          "from": "Ukr"
+        },
+        "Rum": {
+          "to": "Bud",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Mos": {
+          "from": "Sev",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Edi": {
+          "to": "Cly",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Ukr": {
+          "to": "Rum",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "NTH": {
+          "to": "Hol",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "HEL"
+        },
+        "NWG": {
+          "to": "NAO",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Tyr": {
+          "from": "Tri",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "HEL": {
+          "to": "Hol",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Mun": {
+          "to": "Ber",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "War": {
+          "to": "Gal",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Kie": {
+          "to": "Hol",
+          "result_reason": "Disrupted",
+          "type": "SUPPORT",
+          "result": "FAILS",
+          "from": "HEL"
+        },
+        "Sil": {
+          "to": "Ber",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Mun"
+        }
+      },
+      "France": {
+        "Naf": {
+          "to": "Tun",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "ENG": {
+          "to": "IRI",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Bur": {
+          "type": "HOLD",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Hol": {
+          "from": "Ber",
+          "result_reason": "Disrupted",
+          "to": "Kie",
+          "result": "FAILS",
+          "type": "SUPPORT",
+          "retreat": {
+            "to": "Bel",
+            "type": "MOVE",
+            "result": "SUCCEEDS"
+          }
+        },
+        "Lon": {
+          "type": "HOLD",
+          "result": "SUCCEEDS",
+          "result_reason": "Stronger defense"
+        },
+        "WES": {
+          "to": "Tun",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Naf"
+        },
+        "Ber": {
+          "to": "Kie",
+          "type": "MOVE",
+          "result": "FAILS",
+          "retreat": {
+            "to": "Pru",
+            "type": "MOVE",
+            "result": "SUCCEEDS"
+          },
+          "result_reason": "Attack strength is not greater than the defend strength"
+        },
+        "Bre": {
+          "to": "ENG",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "LYO": {
+          "from": "WES",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        }
+      }
+    }
+  },
+  {
+    "url": "https://www.backstabbr.com/game/Major-Major-Major-Major/5694328282808320/1908/fall",
+    "territories": {
+      "Par": "France",
+      "Smy": "Turkey",
+      "Hol": "France",
+      "Lon": "France",
+      "Nap": "Italy",
+      "Gre": "Turkey",
+      "Ven": "Italy",
+      "Mun": "Russia",
+      "War": "Russia",
+      "Mar": "France",
+      "Rum": "Russia",
+      "Mos": "Russia",
+      "Tun": "Turkey",
+      "Bud": "Russia",
+      "Tri": "Russia",
+      "Bul": "Turkey",
+      "Lvp": "England",
+      "Bel": "France",
+      "Swe": "Russia",
+      "Stp": "Russia",
+      "Den": "Russia",
+      "Ber": "France",
+      "Con": "Turkey",
+      "Sev": "Russia",
+      "Rom": "Italy",
+      "Vie": "Russia",
+      "Edi": "Russia",
+      "Por": "France",
+      "Nwy": "Russia",
+      "Ank": "Turkey",
+      "Kie": "Russia",
+      "Ser": "Turkey",
+      "Spa": "France",
+      "Bre": "France"
+    },
+    "unitsByPlayer": {
+      "Turkey": {
+        "AEG": "F",
+        "ION": "F",
+        "Bul": "A",
+        "TYS": "F",
+        "BLA": "F",
+        "Arm": "A",
+        "Ser": "A"
+      },
+      "England": {
+        "Yor": "F"
+      },
+      "Italy": {
+        "Ven": "F",
+        "Nap": "A",
+        "Rom": "F"
+      },
+      "Russia": {
+        "Tri": "A",
+        "Sev": "F",
+        "Rum": "A",
+        "Mos": "A",
+        "Hol": "F",
+        "NAO": "F",
+        "NTH": "F",
+        "Gal": "A",
+        "Cly": "F",
+        "Kie": "A",
+        "Tyr": "A",
+        "Ber": "A",
+        "Bud": "A",
+        "Sil": "A"
+      },
+      "France": {
+        "Pru": "A",
+        "Bel": "A",
+        "ENG": "F",
+        "Bur": "A",
+        "Lon": "A",
+        "WES": "F",
+        "IRI": "F",
+        "Tun": "F",
+        "LYO": "F"
+      }
+    },
+    "orders": {
+      "Turkey": {
+        "AEG": {
+          "to": "ION",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "ION": {
+          "to": "Nap",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Bul": {
+          "from": "Ser",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "TYS": {
+          "to": "Rom",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "BLA": {
+          "to": "Rum",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the defend strength"
+        },
+        "Arm": {
+          "to": "Sev",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the defend strength"
+        },
+        "Ser": {
+          "type": "HOLD",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        }
+      },
+      "England": {
+        "Yor": {
+          "to": "Edi",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        }
+      },
+      "Italy": {
+        "Ven": {
+          "to": "Tri",
+          "type": "MOVE",
+          "result": "FAILS",
+          "retreat": {
+            "to": {},
+            "type": "DISBAND",
+            "result": "SUCCEEDS"
+          },
+          "result_reason": "Attack strength is not greater than the defend strength"
+        },
+        "Nap": {
+          "to": "Apu",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Rom": {
+          "to": "Tus",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        }
+      },
+      "Russia": {
+        "Tri": {
+          "to": "Ven",
+          "result_reason": "Neither displaced nor disrupted",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Tyr"
+        },
+        "Sev": {
+          "from": "Rum",
+          "type": "SUPPORT",
+          "result": "FAILS",
+          "result_reason": "Disrupted"
+        },
+        "Rum": {
+          "from": "Sev",
+          "type": "SUPPORT",
+          "result": "FAILS",
+          "result_reason": "Disrupted"
+        },
+        "Mos": {
+          "from": "Sev",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Hol": {
+          "to": "Bel",
+          "result_reason": "Neither displaced nor disrupted",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "NTH"
+        },
+        "NAO": {
+          "to": "Lvp",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "NTH": {
+          "to": "Bel",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Gal": {
+          "from": "Rum",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Cly": {
+          "to": "Lvp",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "NAO"
+        },
+        "Kie": {
+          "to": "Mun",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the prevent strength"
+        },
+        "Ber": {
+          "type": "HOLD",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Bud": {
+          "from": "Rum",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Tyr": {
+          "to": "Ven",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Sil": {
+          "to": "War",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        }
+      },
+      "France": {
+        "Pru": {
+          "to": "Lvn",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Bel": {
+          "from": "Lon",
+          "result_reason": "Disrupted",
+          "to": "Hol",
+          "result": "FAILS",
+          "type": "SUPPORT",
+          "retreat": {
+            "to": "Pic",
+            "type": "MOVE",
+            "result": "SUCCEEDS"
+          }
+        },
+        "ENG": {
+          "to": "Hol",
+          "result_reason": "Unchallenged",
+          "type": "CONVOY",
+          "result": "SUCCEEDS",
+          "from": "Lon"
+        },
+        "Bur": {
+          "to": "Mun",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the prevent strength"
+        },
+        "Lon": {
+          "to": "Hol",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Invalid move path"
+        },
+        "WES": {
+          "to": "TYS",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "IRI": {
+          "to": "MAO",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Tun": {
+          "to": "TYS",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "WES"
+        },
+        "LYO": {
+          "to": "TYS",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "WES"
+        }
+      }
+    }
+  },
+  {
+    "url": "https://www.backstabbr.com/game/Major-Major-Major-Major/5694328282808320/1907/spring",
+    "territories": {
+      "Par": "France",
+      "Smy": "Turkey",
+      "Hol": "France",
+      "Swe": "Russia",
+      "Nap": "Italy",
+      "Gre": "Turkey",
+      "Ven": "Italy",
+      "Mun": "Russia",
+      "War": "Russia",
+      "Lvp": "England",
+      "Mar": "France",
+      "Rum": "Russia",
+      "Mos": "Russia",
+      "Bul": "Turkey",
+      "Bud": "Russia",
+      "Tri": "Italy",
+      "Tun": "Turkey",
+      "Bel": "France",
+      "Lon": "France",
+      "Stp": "Russia",
+      "Den": "Russia",
+      "Ber": "Russia",
+      "Con": "Turkey",
+      "Sev": "Russia",
+      "Rom": "Italy",
+      "Vie": "Russia",
+      "Edi": "England",
+      "Por": "France",
+      "Nwy": "Russia",
+      "Ank": "Turkey",
+      "Kie": "Russia",
+      "Ser": "Russia",
+      "Spa": "France",
+      "Bre": "France"
+    },
+    "unitsByPlayer": {
+      "Turkey": {
+        "Tun": "F",
+        "ION": "F",
+        "Gre": "A",
+        "Bul": "A",
+        "BLA": "F",
+        "Arm": "A"
+      },
+      "Italy": {
+        "Tri": "A",
+        "Nap": "A",
+        "ADR": "F",
+        "TYS": "F"
+      },
+      "England": {
+        "NTH": "F",
+        "Edi": "F"
+      },
+      "Russia": {
+        "Sev": "F",
+        "Ser": "A",
+        "Rum": "A",
+        "Mos": "A",
+        "Vie": "A",
+        "Nwy": "F",
+        "Ukr": "A",
+        "SKA": "F",
+        "Tyr": "A",
+        "Den": "F",
+        "Mun": "A",
+        "War": "A",
+        "Kie": "A",
+        "Cly": "F"
+      },
+      "France": {
+        "Ruh": "A",
+        "ENG": "F",
+        "Bur": "A",
+        "Hol": "A",
+        "Lon": "A",
+        "WES": "F",
+        "LYO": "F",
+        "MAO": "F"
+      }
+    },
+    "orders": {
+      "Turkey": {
+        "Tun": {
+          "to": "Naf",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the prevent strength"
+        },
+        "ION": {
+          "to": "Tun",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the defend strength"
+        },
+        "Gre": {
+          "to": "Ser",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Bul": {
+          "to": "Ser",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Gre"
+        },
+        "BLA": {
+          "to": "Rum",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the defend strength"
+        },
+        "Arm": {
+          "to": "Sev",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the defend strength"
+        }
+      },
+      "England": {
+        "NTH": {
+          "to": "Hol",
+          "type": "MOVE",
+          "result": "FAILS",
+          "retreat": {
+            "to": "HEL",
+            "type": "MOVE",
+            "result": "SUCCEEDS"
+          },
+          "result_reason": "Attack strength is not greater than the defend strength"
+        },
+        "Edi": {
+          "to": "Yor",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        }
+      },
+      "Italy": {
+        "Tri": {
+          "type": "HOLD",
+          "result": "FAILS",
+          "retreat": {
+            "to": "Bud",
+            "type": "MOVE",
+            "result": "FAILS"
+          },
+          "result_reason": "Insufficient hold strength"
+        },
+        "Nap": {
+          "type": "HOLD",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "ADR": {
+          "type": "HOLD",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "TYS": {
+          "type": "HOLD",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        }
+      },
+      "Russia": {
+        "Sev": {
+          "from": "Rum",
+          "type": "SUPPORT",
+          "result": "FAILS",
+          "result_reason": "Disrupted"
+        },
+        "Ser": {
+          "from": "Vie",
+          "result_reason": "Disrupted",
+          "to": "Tri",
+          "result": "FAILS",
+          "type": "SUPPORT",
+          "retreat": {
+            "to": "Bud",
+            "type": "MOVE",
+            "result": "FAILS"
+          }
+        },
+        "Rum": {
+          "from": "Ser",
+          "type": "SUPPORT",
+          "result": "FAILS",
+          "result_reason": "Disrupted"
+        },
+        "Mos": {
+          "from": "Sev",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Vie": {
+          "to": "Tri",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Ukr": {
+          "from": "Rum",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Nwy": {
+          "to": "NTH",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "SKA"
+        },
+        "SKA": {
+          "to": "NTH",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Cly": {
+          "to": "Edi",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Den": {
+          "from": "Kie",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Tyr": {
+          "to": "Tri",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Vie"
+        },
+        "Mun": {
+          "to": "Ruh",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "War": {
+          "to": "Sil",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Kie": {
+          "to": "Ruh",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Mun"
+        }
+      },
+      "France": {
+        "Ruh": {
+          "from": "Bur",
+          "result_reason": "Displaced",
+          "to": "Mun",
+          "result": "FAILS",
+          "type": "SUPPORT",
+          "retreat": {
+            "to": "Bur",
+            "type": "MOVE",
+            "result": "SUCCEEDS"
+          }
+        },
+        "ENG": {
+          "to": "Bel",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the prevent strength"
+        },
+        "Bur": {
+          "to": "Mun",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Hol": {
+          "to": "Bel",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the prevent strength"
+        },
+        "Lon": {
+          "type": "HOLD",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "WES": {
+          "type": "HOLD",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "LYO": {
+          "type": "HOLD",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "MAO": {
+          "to": "Naf",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the prevent strength"
+        }
+      }
+    }
+  },
+  {
+    "url": "https://www.backstabbr.com/game/Major-Major-Major-Major/5694328282808320/1907/fall",
+    "territories": {
+      "Par": "France",
+      "Smy": "Turkey",
+      "Hol": "France",
+      "Swe": "Russia",
+      "Nap": "Italy",
+      "Gre": "Turkey",
+      "Ven": "Italy",
+      "Mun": "Russia",
+      "War": "Russia",
+      "Lvp": "England",
+      "Mar": "France",
+      "Rum": "Russia",
+      "Mos": "Russia",
+      "Bul": "Turkey",
+      "Bud": "Russia",
+      "Tri": "Italy",
+      "Tun": "Turkey",
+      "Bel": "France",
+      "Lon": "France",
+      "Stp": "Russia",
+      "Den": "Russia",
+      "Ber": "Russia",
+      "Con": "Turkey",
+      "Sev": "Russia",
+      "Rom": "Italy",
+      "Vie": "Russia",
+      "Edi": "England",
+      "Por": "France",
+      "Nwy": "Russia",
+      "Ank": "Turkey",
+      "Kie": "Russia",
+      "Ser": "Russia",
+      "Spa": "France",
+      "Bre": "France"
+    },
+    "unitsByPlayer": {
+      "Turkey": {
+        "Bul": "A",
+        "Ser": "A",
+        "ION": "F",
+        "Tun": "F",
+        "BLA": "F",
+        "Arm": "A"
+      },
+      "England": {
+        "HEL": "F",
+        "Yor": "F"
+      },
+      "Italy": {
+        "Nap": "A",
+        "ADR": "F",
+        "TYS": "F"
+      },
+      "Russia": {
+        "Tri": "A",
+        "Sev": "F",
+        "Ruh": "A",
+        "Rum": "A",
+        "Mos": "A",
+        "Edi": "F",
+        "Ukr": "A",
+        "Nwy": "F",
+        "NTH": "F",
+        "Tyr": "A",
+        "Den": "F",
+        "Kie": "A",
+        "Sil": "A"
+      },
+      "France": {
+        "Mun": "A",
+        "ENG": "F",
+        "Bur": "A",
+        "Hol": "A",
+        "Lon": "A",
+        "WES": "F",
+        "LYO": "F",
+        "MAO": "F"
+      }
+    },
+    "orders": {
+      "Turkey": {
+        "Tun": {
+          "to": "Naf",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the prevent strength"
+        },
+        "ION": {
+          "to": "Tun",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the prevent strength"
+        },
+        "Bul": {
+          "from": "Ser",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "BLA": {
+          "from": "Bul",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Arm": {
+          "to": "Sev",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the defend strength"
+        },
+        "Ser": {
+          "type": "HOLD",
+          "result": "SUCCEEDS",
+          "result_reason": "Stronger defense"
+        }
+      },
+      "England": {
+        "HEL": {
+          "to": "Hol",
+          "type": "MOVE",
+          "result": "FAILS",
+          "retreat": {
+            "to": {},
+            "type": "DISBAND",
+            "result": "SUCCEEDS"
+          },
+          "result_reason": "Attack strength is not greater than the defend strength"
+        },
+        "Yor": {
+          "to": "Lon",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the defend strength"
+        }
+      },
+      "Italy": {
+        "Nap": {
+          "type": "HOLD",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "ADR": {
+          "to": "Tri",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the defend strength"
+        },
+        "TYS": {
+          "to": "Tun",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the prevent strength"
+        }
+      },
+      "Russia": {
+        "Tri": {
+          "to": "Ser",
+          "result_reason": "Disrupted",
+          "type": "SUPPORT",
+          "result": "FAILS",
+          "from": "Rum"
+        },
+        "Sev": {
+          "to": "Rum",
+          "result_reason": "Disrupted",
+          "type": "SUPPORT",
+          "result": "FAILS",
+          "from": "Ukr"
+        },
+        "Ruh": {
+          "to": "Mun",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Rum": {
+          "to": "Ser",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the defend strength"
+        },
+        "Mos": {
+          "from": "Sev",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Edi": {
+          "from": "NTH",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Ukr": {
+          "to": "Rum",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the defend strength"
+        },
+        "Nwy": {
+          "to": "NWG",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "NTH": {
+          "to": "HEL",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Den"
+        },
+        "Tyr": {
+          "from": "Tri",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Den": {
+          "to": "HEL",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Kie": {
+          "to": "Mun",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Ruh"
+        },
+        "Sil": {
+          "to": "Mun",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Ruh"
+        }
+      },
+      "France": {
+        "Mun": {
+          "type": "HOLD",
+          "result": "FAILS",
+          "retreat": {
+            "to": "Ber",
+            "type": "MOVE",
+            "result": "SUCCEEDS"
+          },
+          "result_reason": "Insufficient hold strength"
+        },
+        "ENG": {
+          "from": "Lon",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Bur": {
+          "to": "Bel",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the prevent strength"
+        },
+        "Hol": {
+          "to": "Bel",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the prevent strength"
+        },
+        "Lon": {
+          "type": "HOLD",
+          "result": "SUCCEEDS",
+          "result_reason": "Stronger defense"
+        },
+        "WES": {
+          "to": "Naf",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "MAO"
+        },
+        "LYO": {
+          "from": "WES",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "MAO": {
+          "to": "Naf",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        }
+      }
+    }
+  },
+  {
+    "url": "https://www.backstabbr.com/game/Major-Major-Major-Major/5694328282808320/1907/winter",
+    "territories": {
+      "Par": "France",
+      "Smy": "Turkey",
+      "Hol": "France",
+      "Lon": "France",
+      "Nap": "Italy",
+      "Gre": "Turkey",
+      "Ven": "Italy",
+      "Mun": "Russia",
+      "War": "Russia",
+      "Mar": "France",
+      "Rum": "Russia",
+      "Mos": "Russia",
+      "Tun": "Turkey",
+      "Bud": "Russia",
+      "Tri": "Russia",
+      "Bul": "Turkey",
+      "Lvp": "England",
+      "Bel": "France",
+      "Swe": "Russia",
+      "Stp": "Russia",
+      "Den": "Russia",
+      "Ber": "France",
+      "Con": "Turkey",
+      "Sev": "Russia",
+      "Rom": "Italy",
+      "Vie": "Russia",
+      "Edi": "Russia",
+      "Por": "France",
+      "Nwy": "Russia",
+      "Ank": "Turkey",
+      "Kie": "Russia",
+      "Ser": "Turkey",
+      "Spa": "France",
+      "Bre": "France"
+    },
+    "unitsByPlayer": {
+      "Turkey": {
+        "Bul": "A",
+        "Ser": "A",
+        "ION": "F",
+        "Tun": "F",
+        "BLA": "F",
+        "Arm": "A"
+      },
+      "England": {
+        "Yor": "F"
+      },
+      "Italy": {
+        "Nap": "A",
+        "ADR": "F",
+        "TYS": "F"
+      },
+      "Russia": {
+        "Tri": "A",
+        "Sev": "F",
+        "Rum": "A",
+        "Mos": "A",
+        "Edi": "F",
+        "Ukr": "A",
+        "NTH": "F",
+        "NWG": "F",
+        "Tyr": "A",
+        "HEL": "F",
+        "Mun": "A",
+        "Kie": "A",
+        "Sil": "A"
+      },
+      "France": {
+        "Naf": "F",
+        "ENG": "F",
+        "Bur": "A",
+        "Hol": "A",
+        "Lon": "A",
+        "WES": "F",
+        "Ber": "A",
+        "LYO": "F"
+      }
+    },
+    "orders": {
+      "Turkey": {
+        "Smy": {
+          "unit_type": "F",
+          "type": "BUILD",
+          "result": "SUCCEEDS"
+        }
+      },
+      "Russia": {
+        "War": {
+          "unit_type": "A",
+          "type": "BUILD",
+          "result": "SUCCEEDS"
+        }
+      },
+      "France": {
+        "Bre": {
+          "unit_type": "F",
+          "type": "BUILD",
+          "result": "SUCCEEDS"
+        }
+      }
+    }
+  },
+  {
+    "url": "https://www.backstabbr.com/game/Major-Major-Major-Major/5694328282808320/1906/spring",
+    "territories": {
+      "Par": "France",
+      "Smy": "Turkey",
+      "Hol": "England",
+      "Lon": "England",
+      "Nap": "Italy",
+      "Gre": "Turkey",
+      "Ven": "Italy",
+      "Mun": "France",
+      "War": "Russia",
+      "Mar": "France",
+      "Rum": "Russia",
+      "Mos": "Russia",
+      "Tun": "Turkey",
+      "Bud": "Russia",
+      "Tri": "Italy",
+      "Bul": "Turkey",
+      "Lvp": "England",
+      "Bel": "France",
+      "Swe": "Russia",
+      "Stp": "Russia",
+      "Den": "Russia",
+      "Ber": "Russia",
+      "Con": "Turkey",
+      "Sev": "Russia",
+      "Rom": "Italy",
+      "Vie": "Russia",
+      "Edi": "England",
+      "Por": "France",
+      "Nwy": "Russia",
+      "Ank": "Turkey",
+      "Kie": "France",
+      "Ser": "Russia",
+      "Spa": "France",
+      "Bre": "France"
+    },
+    "unitsByPlayer": {
+      "Turkey": {
+        "Bul": "A",
+        "Ank": "A",
+        "ION": "F",
+        "Gre": "A",
+        "Tun": "F",
+        "BLA": "F"
+      },
+      "Italy": {
+        "Nap": "F",
+        "Alb": "A",
+        "Rom": "A",
+        "Apu": "F"
+      },
+      "England": {
+        "HEL": "F",
+        "Edi": "F",
+        "Lon": "F",
+        "NAO": "F"
+      },
+      "Russia": {
+        "Sev": "F",
+        "Ser": "A",
+        "Rum": "A",
+        "Nwy": "F",
+        "Ukr": "A",
+        "Boh": "A",
+        "Gal": "A",
+        "Stp": {
+          "type": "F",
+          "coast": "nc"
+        },
+        "NWG": "F",
+        "Den": "F",
+        "Ber": "A",
+        "War": "A"
+      },
+      "France": {
+        "Ruh": "A",
+        "Mar": "F",
+        "Bel": "A",
+        "ENG": "F",
+        "Bur": "A",
+        "WES": "F",
+        "MAO": "F",
+        "Kie": "A"
+      }
+    },
+    "orders": {
+      "Turkey": {
+        "Bul": {
+          "type": "HOLD",
+          "result": "SUCCEEDS",
+          "result_reason": "Stronger defense"
+        },
+        "Ank": {
+          "to": "Arm",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "ION": {
+          "type": "HOLD",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Gre": {
+          "from": "Bul",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Tun": {
+          "from": "ION",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "BLA": {
+          "from": "Bul",
+          "type": "SUPPORT",
+          "result": "FAILS",
+          "result_reason": "Disrupted"
+        }
+      },
+      "Italy": {
+        "Nap": {
+          "to": "TYS",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Alb": {
+          "to": "Tri",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Rom": {
+          "to": "Nap",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Apu": {
+          "to": "ADR",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        }
+      },
+      "England": {
+        "HEL": {
+          "to": "NTH",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Lon"
+        },
+        "Edi": {
+          "to": "NTH",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Lon"
+        },
+        "Lon": {
+          "to": "NTH",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "NAO": {
+          "to": "NWG",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the defend strength"
+        }
+      },
+      "Russia": {
+        "Sev": {
+          "to": "BLA",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the defend strength"
+        },
+        "Ser": {
+          "to": "Bul",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Rum"
+        },
+        "Rum": {
+          "to": "Bul",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the defend strength"
+        },
+        "Ukr": {
+          "to": "Rum",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the defend strength"
+        },
+        "Nwy": {
+          "to": "NTH",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the prevent strength"
+        },
+        "Boh": {
+          "to": "Tyr",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Gal": {
+          "to": "Boh",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "NWG": {
+          "type": "HOLD",
+          "result": "SUCCEEDS",
+          "result_reason": "Stronger defense"
+        },
+        "Stp": {
+          "to": "Nwy",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the defend strength"
+        },
+        "Den": {
+          "to": "NTH",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Nwy"
+        },
+        "Ber": {
+          "to": "Kie",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the defend strength"
+        },
+        "War": {
+          "to": "Sil",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        }
+      },
+      "France": {
+        "Ruh": {
+          "to": "Hol",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Mar": {
+          "to": "LYO",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Bel": {
+          "to": "Wal",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "ENG": {
+          "to": "Wal",
+          "result_reason": "Unchallenged",
+          "type": "CONVOY",
+          "result": "SUCCEEDS",
+          "from": "Bel"
+        },
+        "Bur": {
+          "to": "Mar",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "WES": {
+          "to": "TYS",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Nap"
+        },
+        "MAO": {
+          "type": "HOLD",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Kie": {
+          "to": "Hol",
+          "result_reason": "Disrupted",
+          "type": "SUPPORT",
+          "result": "FAILS",
+          "from": "Ruh"
+        }
+      }
+    }
+  },
+  {
+    "url": "https://www.backstabbr.com/game/Major-Major-Major-Major/5694328282808320/1906/fall",
+    "territories": {
+      "Par": "France",
+      "Smy": "Turkey",
+      "Hol": "England",
+      "Lon": "England",
+      "Nap": "Italy",
+      "Gre": "Turkey",
+      "Ven": "Italy",
+      "Mun": "France",
+      "War": "Russia",
+      "Mar": "France",
+      "Rum": "Russia",
+      "Mos": "Russia",
+      "Tun": "Turkey",
+      "Bud": "Russia",
+      "Tri": "Italy",
+      "Bul": "Turkey",
+      "Lvp": "England",
+      "Bel": "France",
+      "Swe": "Russia",
+      "Stp": "Russia",
+      "Den": "Russia",
+      "Ber": "Russia",
+      "Con": "Turkey",
+      "Sev": "Russia",
+      "Rom": "Italy",
+      "Vie": "Russia",
+      "Edi": "England",
+      "Por": "France",
+      "Nwy": "Russia",
+      "Ank": "Turkey",
+      "Kie": "France",
+      "Ser": "Russia",
+      "Spa": "France",
+      "Bre": "France"
+    },
+    "unitsByPlayer": {
+      "Turkey": {
+        "Tun": "F",
+        "ION": "F",
+        "Gre": "A",
+        "Bul": "A",
+        "BLA": "F",
+        "Arm": "A"
+      },
+      "Italy": {
+        "Tri": "A",
+        "Nap": "A",
+        "ADR": "F",
+        "TYS": "F"
+      },
+      "England": {
+        "HEL": "F",
+        "NTH": "F",
+        "Edi": "F",
+        "NAO": "F"
+      },
+      "Russia": {
+        "Sev": "F",
+        "Ser": "A",
+        "Rum": "A",
+        "Ukr": "A",
+        "Nwy": "F",
+        "Boh": "A",
+        "NWG": "F",
+        "Stp": {
+          "type": "F",
+          "coast": "nc"
+        },
+        "Den": "F",
+        "Ber": "A",
+        "Tyr": "A",
+        "Sil": "A"
+      },
+      "France": {
+        "Wal": "A",
+        "ENG": "F",
+        "Hol": "A",
+        "WES": "F",
+        "Mar": "A",
+        "Kie": "A",
+        "LYO": "F",
+        "MAO": "F"
+      }
+    },
+    "orders": {
+      "Turkey": {
+        "Tun": {
+          "type": "HOLD",
+          "result": "SUCCEEDS",
+          "result_reason": "Stronger defense"
+        },
+        "ION": {
+          "from": "Tun",
+          "type": "SUPPORT",
+          "result": "FAILS",
+          "result_reason": "Disrupted"
+        },
+        "Gre": {
+          "to": "Ser",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Tri"
+        },
+        "Bul": {
+          "type": "HOLD",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "BLA": {
+          "to": "Sev",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Arm"
+        },
+        "Arm": {
+          "to": "Sev",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the defend strength"
+        }
+      },
+      "Italy": {
+        "Tri": {
+          "to": "Ser",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the defend strength"
+        },
+        "Nap": {
+          "type": "HOLD",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "ADR": {
+          "to": "ION",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the defend strength"
+        },
+        "TYS": {
+          "to": "Tun",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the defend strength"
+        }
+      },
+      "England": {
+        "HEL": {
+          "to": "Hol",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the defend strength"
+        },
+        "NTH": {
+          "to": "Bel",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the prevent strength"
+        },
+        "Edi": {
+          "to": "NWG",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "NAO"
+        },
+        "NAO": {
+          "to": "NWG",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        }
+      },
+      "Russia": {
+        "Sev": {
+          "from": "Rum",
+          "type": "SUPPORT",
+          "result": "FAILS",
+          "result_reason": "Disrupted"
+        },
+        "Ser": {
+          "from": "Rum",
+          "type": "SUPPORT",
+          "result": "FAILS",
+          "result_reason": "Disrupted"
+        },
+        "Rum": {
+          "from": "Ser",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Ukr": {
+          "from": "Sev",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Nwy": {
+          "to": "SKA",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Boh": {
+          "to": "Vie",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "NWG": {
+          "from": "Stp",
+          "result_reason": "Disrupted",
+          "to": "Nwy",
+          "result": "FAILS",
+          "type": "SUPPORT",
+          "retreat": {
+            "to": "Cly",
+            "type": "MOVE",
+            "result": "SUCCEEDS"
+          }
+        },
+        "Stp": {
+          "to": "Nwy",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Den": {
+          "to": "Kie",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Ber"
+        },
+        "Ber": {
+          "to": "Kie",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Tyr": {
+          "to": "Mun",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Sil"
+        },
+        "Sil": {
+          "to": "Mun",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        }
+      },
+      "France": {
+        "Wal": {
+          "to": "Lon",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "ENG": {
+          "to": "Bel",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the prevent strength"
+        },
+        "Hol": {
+          "from": "Kie",
+          "type": "SUPPORT",
+          "result": "FAILS",
+          "result_reason": "Disrupted"
+        },
+        "WES": {
+          "to": "Naf",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the prevent strength"
+        },
+        "Mar": {
+          "to": "Bur",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "MAO": {
+          "to": "Naf",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the prevent strength"
+        },
+        "LYO": {
+          "type": "HOLD",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Kie": {
+          "from": "Hol",
+          "type": "SUPPORT",
+          "result": "FAILS",
+          "retreat": {
+            "to": "Ruh",
+            "type": "MOVE",
+            "result": "SUCCEEDS"
+          },
+          "result_reason": "Disrupted"
+        }
+      }
+    }
+  },
+  {
+    "url": "https://www.backstabbr.com/game/Major-Major-Major-Major/5694328282808320/1906/winter",
+    "territories": {
+      "Par": "France",
+      "Smy": "Turkey",
+      "Hol": "France",
+      "Swe": "Russia",
+      "Nap": "Italy",
+      "Gre": "Turkey",
+      "Ven": "Italy",
+      "Mun": "Russia",
+      "War": "Russia",
+      "Lvp": "England",
+      "Mar": "France",
+      "Rum": "Russia",
+      "Mos": "Russia",
+      "Bul": "Turkey",
+      "Bud": "Russia",
+      "Tri": "Italy",
+      "Tun": "Turkey",
+      "Bel": "France",
+      "Lon": "France",
+      "Stp": "Russia",
+      "Den": "Russia",
+      "Ber": "Russia",
+      "Con": "Turkey",
+      "Sev": "Russia",
+      "Rom": "Italy",
+      "Vie": "Russia",
+      "Edi": "England",
+      "Por": "France",
+      "Nwy": "Russia",
+      "Ank": "Turkey",
+      "Kie": "Russia",
+      "Ser": "Russia",
+      "Spa": "France",
+      "Bre": "France"
+    },
+    "unitsByPlayer": {
+      "Turkey": {
+        "Tun": "F",
+        "ION": "F",
+        "Gre": "A",
+        "Bul": "A",
+        "BLA": "F",
+        "Arm": "A"
+      },
+      "Italy": {
+        "Tri": "A",
+        "Nap": "A",
+        "ADR": "F",
+        "TYS": "F"
+      },
+      "England": {
+        "HEL": "F",
+        "NTH": "F",
+        "Edi": "F",
+        "NWG": "F"
+      },
+      "Russia": {
+        "Sev": "F",
+        "Ser": "A",
+        "Vie": "A",
+        "Rum": "A",
+        "Nwy": "F",
+        "Ukr": "A",
+        "SKA": "F",
+        "Tyr": "A",
+        "Den": "F",
+        "Mun": "A",
+        "Kie": "A",
+        "Cly": "F"
+      },
+      "France": {
+        "Ruh": "A",
+        "ENG": "F",
+        "Bur": "A",
+        "Hol": "A",
+        "Lon": "A",
+        "WES": "F",
+        "LYO": "F",
+        "MAO": "F"
+      }
+    },
+    "orders": {
+      "England": {
+        "HEL": {
+          "type": "DISBAND",
+          "result": "SUCCEEDS"
+        },
+        "NWG": {
+          "type": "DISBAND",
+          "result": "SUCCEEDS"
+        }
+      },
+      "Russia": {
+        "Mos": {
+          "unit_type": "A",
+          "type": "BUILD",
+          "result": "SUCCEEDS"
+        },
+        "War": {
+          "unit_type": "A",
+          "type": "BUILD",
+          "result": "SUCCEEDS"
+        }
+      }
+    }
+  },
+  {
+    "url": "https://www.backstabbr.com/game/Major-Major-Major-Major/5694328282808320/1905/spring",
+    "territories": {
+      "Par": "France",
+      "Smy": "Turkey",
+      "Hol": "England",
+      "Swe": "Russia",
+      "Nap": "Austria",
+      "Gre": "Turkey",
+      "Ven": "Italy",
+      "Mun": "France",
+      "War": "Russia",
+      "Lvp": "England",
+      "Mar": "France",
+      "Rum": "Russia",
+      "Mos": "Russia",
+      "Bul": "Turkey",
+      "Bud": "Russia",
+      "Tri": "Italy",
+      "Tun": "Italy",
+      "Bel": "England",
+      "Lon": "England",
+      "Stp": "Russia",
+      "Den": "England",
+      "Ber": "Russia",
+      "Con": "Turkey",
+      "Sev": "Russia",
+      "Rom": "Italy",
+      "Vie": "Russia",
+      "Edi": "England",
+      "Por": "France",
+      "Nwy": "Russia",
+      "Ank": "Turkey",
+      "Kie": "France",
+      "Ser": "Turkey",
+      "Spa": "France",
+      "Bre": "France"
+    },
+    "unitsByPlayer": {
+      "Turkey": {
+        "Ser": "A",
+        "Smy": "F",
+        "Ank": "A",
+        "Gre": "F",
+        "Bul": "A",
+        "BLA": "F"
+      },
+      "Italy": {
+        "Tri": "A",
+        "WES": "F",
+        "Pie": "A",
+        "ION": "F"
+      },
+      "France": {
+        "Mar": "F",
+        "Bur": "A",
+        "Pic": "A",
+        "MAO": "F",
+        "Spa": "A",
+        "Bre": "F",
+        "Kie": "A"
+      },
+      "Austria": {
+        "Nap": "F"
+      },
+      "England": {
+        "Bel": "A",
+        "NTH": "F",
+        "Hol": "F",
+        "Lon": "F",
+        "IRI": "F",
+        "HEL": "F"
+      },
+      "Russia": {
+        "Sev": "F",
+        "Rum": "A",
+        "Vie": "A",
+        "Swe": "F",
+        "Nwy": "F",
+        "Stp": {
+          "type": "F",
+          "coast": "nc"
+        },
+        "Ber": "A",
+        "War": "A",
+        "Bud": "A",
+        "Sil": "A"
+      }
+    },
+    "orders": {
+      "Turkey": {
+        "Ser": {
+          "from": "Bul",
+          "result_reason": "Displaced",
+          "to": "Rum",
+          "result": "FAILS",
+          "type": "SUPPORT",
+          "retreat": {
+            "to": "Bul",
+            "type": "MOVE",
+            "result": "SUCCEEDS"
+          }
+        },
+        "Smy": {
+          "to": "AEG",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Ank": {
+          "to": "Arm",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the prevent strength"
+        },
+        "Gre": {
+          "to": "ION",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Bul": {
+          "to": "Rum",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "BLA": {
+          "to": "Rum",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Bul"
+        }
+      },
+      "Italy": {
+        "Tri": {
+          "to": "Ser",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Rum"
+        },
+        "ION": {
+          "from": "WES",
+          "result_reason": "Disrupted",
+          "to": "TYS",
+          "result": "FAILS",
+          "type": "SUPPORT",
+          "retreat": {
+            "to": "Apu",
+            "type": "MOVE",
+            "result": "SUCCEEDS"
+          }
+        },
+        "WES": {
+          "to": "TYS",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Pie": {
+          "to": "Tus",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        }
+      },
+      "France": {
+        "Mar": {
+          "to": "LYO",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Bur": {
+          "to": "Bel",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Pic"
+        },
+        "Pic": {
+          "to": "Bel",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "MAO": {
+          "to": "ENG",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Bre"
+        },
+        "Spa": {
+          "to": "Mar",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Bre": {
+          "to": "ENG",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the prevent strength"
+        },
+        "Kie": {
+          "to": "Den",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Swe"
+        }
+      },
+      "Austria": {
+        "Nap": {
+          "to": "ION",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Gre"
+        }
+      },
+      "England": {
+        "Bel": {
+          "to": "Den",
+          "type": "MOVE",
+          "result": "FAILS",
+          "retreat": {
+            "to": "Ruh",
+            "type": "MOVE",
+            "result": "SUCCEEDS"
+          },
+          "result_reason": "Attack strength is not greater than the prevent strength"
+        },
+        "NTH": {
+          "to": "Den",
+          "result_reason": "Not Dislodged",
+          "type": "CONVOY",
+          "result": "SUCCEEDS",
+          "from": "Bel"
+        },
+        "Hol": {
+          "to": "Bel",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the prevent strength"
+        },
+        "Lon": {
+          "to": "ENG",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "IRI"
+        },
+        "IRI": {
+          "to": "ENG",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the prevent strength"
+        },
+        "HEL": {
+          "to": "Den",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Bel"
+        }
+      },
+      "Russia": {
+        "Sev": {
+          "to": "Arm",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the prevent strength"
+        },
+        "Rum": {
+          "to": "Ser",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Vie": {
+          "from": "Bud",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Swe": {
+          "to": "Den",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the prevent strength"
+        },
+        "Nwy": {
+          "to": "NTH",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the defend strength"
+        },
+        "Stp": {
+          "to": "BAR",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Ber": {
+          "from": "Kie",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "War": {
+          "to": "Ukr",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Bud": {
+          "to": "Ser",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Rum"
+        },
+        "Sil": {
+          "to": "Boh",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        }
+      }
+    }
+  },
+  {
+    "url": "https://www.backstabbr.com/game/Major-Major-Major-Major/5694328282808320/1905/fall",
+    "territories": {
+      "Par": "France",
+      "Smy": "Turkey",
+      "Hol": "England",
+      "Swe": "Russia",
+      "Nap": "Austria",
+      "Gre": "Turkey",
+      "Ven": "Italy",
+      "Mun": "France",
+      "War": "Russia",
+      "Lvp": "England",
+      "Mar": "France",
+      "Rum": "Russia",
+      "Mos": "Russia",
+      "Bul": "Turkey",
+      "Bud": "Russia",
+      "Tri": "Italy",
+      "Tun": "Italy",
+      "Bel": "England",
+      "Lon": "England",
+      "Stp": "Russia",
+      "Den": "England",
+      "Ber": "Russia",
+      "Con": "Turkey",
+      "Sev": "Russia",
+      "Rom": "Italy",
+      "Vie": "Russia",
+      "Edi": "England",
+      "Por": "France",
+      "Nwy": "Russia",
+      "Ank": "Turkey",
+      "Kie": "France",
+      "Ser": "Turkey",
+      "Spa": "France",
+      "Bre": "France"
+    },
+    "unitsByPlayer": {
+      "Turkey": {
+        "AEG": "F",
+        "Rum": "A",
+        "Ank": "A",
+        "ION": "F",
+        "Bul": "A",
+        "BLA": "F"
+      },
+      "Italy": {
+        "Tri": "A",
+        "Tus": "A",
+        "Apu": "F",
+        "TYS": "F"
+      },
+      "France": {
+        "Mar": "A",
+        "Bel": "A",
+        "Bur": "A",
+        "Kie": "A",
+        "Bre": "F",
+        "LYO": "F",
+        "MAO": "F"
+      },
+      "Austria": {
+        "Nap": "F"
+      },
+      "England": {
+        "Ruh": "A",
+        "IRI": "F",
+        "Hol": "F",
+        "Lon": "F",
+        "NTH": "F",
+        "HEL": "F"
+      },
+      "Russia": {
+        "Sev": "F",
+        "BAR": "F",
+        "Ser": "A",
+        "Vie": "A",
+        "Swe": "F",
+        "Ukr": "A",
+        "Nwy": "F",
+        "Boh": "A",
+        "Ber": "A",
+        "Bud": "A"
+      }
+    },
+    "orders": {
+      "Turkey": {
+        "AEG": {
+          "to": "ION",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Rum": {
+          "to": "Bul",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Ank": {
+          "type": "HOLD",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "ION": {
+          "to": "Tun",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Bul": {
+          "to": "Gre",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "BLA": {
+          "to": "Sev",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the defend strength"
+        }
+      },
+      "Italy": {
+        "Tri": {
+          "to": "Alb",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Tus": {
+          "to": "Rom",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "TYS": {
+          "to": "Nap",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Apu": {
+          "to": "Nap",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "TYS"
+        }
+      },
+      "France": {
+        "Mar": {
+          "to": "Bur",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Bel": {
+          "to": "Ruh",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Bur"
+        },
+        "Bur": {
+          "to": "Ruh",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "MAO": {
+          "to": "ENG",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Bre"
+        },
+        "Bre": {
+          "to": "ENG",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "LYO": {
+          "to": "WES",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Kie": {
+          "to": "Den",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Swe"
+        }
+      },
+      "Austria": {
+        "Nap": {
+          "type": "HOLD",
+          "result": "FAILS",
+          "retreat": {
+            "to": {},
+            "type": "DISBAND",
+            "result": "SUCCEEDS"
+          },
+          "result_reason": "Insufficient hold strength"
+        }
+      },
+      "England": {
+        "Ruh": {
+          "to": "Hol",
+          "type": "MOVE",
+          "result": "FAILS",
+          "retreat": {
+            "to": {},
+            "type": "DISBAND",
+            "result": "SUCCEEDS"
+          },
+          "result_reason": "Attack strength is not greater than the defend strength"
+        },
+        "NTH": {
+          "to": "Edi",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Hol": {
+          "to": "HEL",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the defend strength"
+        },
+        "Lon": {
+          "to": "NTH",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the prevent strength"
+        },
+        "IRI": {
+          "to": "NAO",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "HEL": {
+          "to": "Den",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the prevent strength"
+        }
+      },
+      "Russia": {
+        "Sev": {
+          "to": "Rum",
+          "result_reason": "Disrupted",
+          "type": "SUPPORT",
+          "result": "FAILS",
+          "from": "Bud"
+        },
+        "BAR": {
+          "to": "NWG",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Ser": {
+          "to": "Rum",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Bud"
+        },
+        "Vie": {
+          "to": "Gal",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Swe": {
+          "to": "Den",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Ukr": {
+          "from": "Sev",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Nwy": {
+          "to": "NTH",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the prevent strength"
+        },
+        "Boh": {
+          "to": "Mun",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the prevent strength"
+        },
+        "Ber": {
+          "to": "Mun",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the prevent strength"
+        },
+        "Bud": {
+          "to": "Rum",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        }
+      }
+    }
+  },
+  {
+    "url": "https://www.backstabbr.com/game/Major-Major-Major-Major/5694328282808320/1905/winter",
+    "territories": {
+      "Par": "France",
+      "Smy": "Turkey",
+      "Hol": "England",
+      "Lon": "England",
+      "Nap": "Italy",
+      "Gre": "Turkey",
+      "Ven": "Italy",
+      "Mun": "France",
+      "War": "Russia",
+      "Mar": "France",
+      "Rum": "Russia",
+      "Mos": "Russia",
+      "Tun": "Turkey",
+      "Bud": "Russia",
+      "Tri": "Italy",
+      "Bul": "Turkey",
+      "Lvp": "England",
+      "Bel": "France",
+      "Swe": "Russia",
+      "Stp": "Russia",
+      "Den": "Russia",
+      "Ber": "Russia",
+      "Con": "Turkey",
+      "Sev": "Russia",
+      "Rom": "Italy",
+      "Vie": "Russia",
+      "Edi": "England",
+      "Por": "France",
+      "Nwy": "Russia",
+      "Ank": "Turkey",
+      "Kie": "France",
+      "Ser": "Russia",
+      "Spa": "France",
+      "Bre": "France"
+    },
+    "unitsByPlayer": {
+      "Turkey": {
+        "Bul": "A",
+        "Ank": "A",
+        "ION": "F",
+        "Gre": "A",
+        "Tun": "F",
+        "BLA": "F"
+      },
+      "Italy": {
+        "Nap": "F",
+        "Alb": "A",
+        "Rom": "A",
+        "Apu": "F"
+      },
+      "France": {
+        "Ruh": "A",
+        "Bel": "A",
+        "ENG": "F",
+        "Bur": "A",
+        "WES": "F",
+        "MAO": "F",
+        "Kie": "A"
+      },
+      "England": {
+        "HEL": "F",
+        "Hol": "F",
+        "Edi": "F",
+        "Lon": "F",
+        "NAO": "F"
+      },
+      "Russia": {
+        "Sev": "F",
+        "Ser": "A",
+        "Rum": "A",
+        "Ukr": "A",
+        "Nwy": "F",
+        "Boh": "A",
+        "Gal": "A",
+        "NWG": "F",
+        "Den": "F",
+        "Ber": "A"
+      }
+    },
+    "orders": {
+      "England": {
+        "Hol": {
+          "type": "DISBAND",
+          "result": "SUCCEEDS"
+        }
+      },
+      "Russia": {
+        "Stp": {
+          "unit_type": "F",
+          "type": "BUILD",
+          "result": "SUCCEEDS",
+          "coast": "nc"
+        },
+        "War": {
+          "unit_type": "A",
+          "type": "BUILD",
+          "result": "SUCCEEDS"
+        }
+      },
+      "France": {
+        "Mar": {
+          "unit_type": "F",
+          "type": "BUILD",
+          "result": "SUCCEEDS"
+        }
+      }
+    }
+  },
+  {
+    "url": "https://www.backstabbr.com/game/Major-Major-Major-Major/5694328282808320/1904/spring",
+    "territories": {
+      "Par": "France",
+      "Smy": "Turkey",
+      "Hol": "England",
+      "Lon": "England",
+      "Nap": "Italy",
+      "Gre": "Austria",
+      "Ven": "Italy",
+      "Mun": "France",
+      "War": "Russia",
+      "Mar": "France",
+      "Rum": "Turkey",
+      "Mos": "Russia",
+      "Tun": "Italy",
+      "Bud": "Russia",
+      "Tri": "Austria",
+      "Bul": "Turkey",
+      "Lvp": "England",
+      "Bel": "England",
+      "Swe": "Russia",
+      "Stp": "Russia",
+      "Den": "England",
+      "Ber": "Germany",
+      "Con": "Turkey",
+      "Sev": "Russia",
+      "Rom": "Italy",
+      "Vie": "Russia",
+      "Edi": "England",
+      "Por": "France",
+      "Nwy": "Russia",
+      "Ank": "Turkey",
+      "Kie": "England",
+      "Ser": "Austria",
+      "Spa": "France",
+      "Bre": "France"
+    },
+    "unitsByPlayer": {
+      "Turkey": {
+        "BLA": "F",
+        "AEG": "F",
+        "Bul": "A",
+        "Rum": "A"
+      },
+      "Italy": {
+        "Ven": "A",
+        "ION": "F",
+        "Alb": "F",
+        "Tyr": "A"
+      },
+      "France": {
+        "Bur": "A",
+        "Pic": "A",
+        "Spa": "A",
+        "Bre": "F",
+        "Mun": "A",
+        "MAO": "F"
+      },
+      "Austria": {
+        "Tri": "A",
+        "Gre": "F",
+        "Ser": "A"
+      },
+      "Germany": {
+        "Ber": "A"
+      },
+      "England": {
+        "Bel": "A",
+        "ENG": "F",
+        "Hol": "F",
+        "Edi": "A",
+        "Lon": "F",
+        "NTH": "F",
+        "Kie": "F"
+      },
+      "Russia": {
+        "Sev": "F",
+        "Vie": "A",
+        "Swe": "F",
+        "Nwy": "F",
+        "Ukr": "A",
+        "Gal": "A",
+        "Bud": "A",
+        "Sil": "A"
+      }
+    },
+    "orders": {
+      "Turkey": {
+        "BLA": {
+          "to": "Con",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Bul": {
+          "to": "Ser",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Rum"
+        },
+        "AEG": {
+          "to": "Gre",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Alb"
+        },
+        "Rum": {
+          "to": "Ser",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        }
+      },
+      "Italy": {
+        "Ven": {
+          "to": "Pie",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "ION": {
+          "to": "Tun",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Alb": {
+          "to": "Gre",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Tyr": {
+          "to": "Ven",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        }
+      },
+      "France": {
+        "Bur": {
+          "to": "Bel",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the defend strength"
+        },
+        "Pic": {
+          "to": "Bel",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Bur"
+        },
+        "Spa": {
+          "type": "HOLD",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Bre": {
+          "to": "ENG",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the prevent strength"
+        },
+        "Mun": {
+          "to": "Ber",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Sil"
+        },
+        "MAO": {
+          "to": "ENG",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Bre"
+        }
+      },
+      "Austria": {
+        "Tri": {
+          "type": "HOLD",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Gre": {
+          "to": "Alb",
+          "type": "MOVE",
+          "result": "FAILS",
+          "retreat": {
+            "to": "ION",
+            "type": "MOVE",
+            "result": "SUCCEEDS"
+          },
+          "result_reason": "Attack strength is not greater than the head to head strength"
+        },
+        "Ser": {
+          "from": "Gre",
+          "result_reason": "Disrupted",
+          "to": "Alb",
+          "result": "FAILS",
+          "type": "SUPPORT",
+          "retreat": {
+            "to": "Alb",
+            "type": "MOVE",
+            "result": "SUCCEEDS"
+          }
+        }
+      },
+      "Germany": {
+        "Ber": {
+          "from": "Mun",
+          "result_reason": "Invalid Order",
+          "to": "Kie",
+          "result": "FAILS",
+          "type": "SUPPORT",
+          "retreat": {
+            "to": {},
+            "type": "DISBAND",
+            "result": "SUCCEEDS"
+          }
+        }
+      },
+      "England": {
+        "Bel": {
+          "type": "HOLD",
+          "result": "SUCCEEDS",
+          "result_reason": "Stronger defense"
+        },
+        "ENG": {
+          "to": "IRI",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Hol": {
+          "from": "Bel",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Edi": {
+          "type": "HOLD",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Lon": {
+          "to": "ENG",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the prevent strength"
+        },
+        "NTH": {
+          "to": "ENG",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Lon"
+        },
+        "Kie": {
+          "type": "HOLD",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        }
+      },
+      "Russia": {
+        "Sev": {
+          "to": "Rum",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Ukr"
+        },
+        "Vie": {
+          "from": "Bud",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Swe": {
+          "from": "Nwy",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Ukr": {
+          "to": "Rum",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Nwy": {
+          "from": "Swe",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Gal": {
+          "to": "Rum",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Ukr"
+        },
+        "Bud": {
+          "to": "Rum",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Ukr"
+        },
+        "Sil": {
+          "to": "Ber",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        }
+      }
+    }
+  },
+  {
+    "url": "https://www.backstabbr.com/game/Major-Major-Major-Major/5694328282808320/1904/fall",
+    "territories": {
+      "Par": "France",
+      "Smy": "Turkey",
+      "Hol": "England",
+      "Lon": "England",
+      "Nap": "Italy",
+      "Gre": "Austria",
+      "Ven": "Italy",
+      "Mun": "France",
+      "War": "Russia",
+      "Mar": "France",
+      "Rum": "Turkey",
+      "Mos": "Russia",
+      "Tun": "Italy",
+      "Bud": "Russia",
+      "Tri": "Austria",
+      "Bul": "Turkey",
+      "Lvp": "England",
+      "Bel": "England",
+      "Swe": "Russia",
+      "Stp": "Russia",
+      "Den": "England",
+      "Ber": "Germany",
+      "Con": "Turkey",
+      "Sev": "Russia",
+      "Rom": "Italy",
+      "Vie": "Russia",
+      "Edi": "England",
+      "Por": "France",
+      "Nwy": "Russia",
+      "Ank": "Turkey",
+      "Kie": "England",
+      "Ser": "Austria",
+      "Spa": "France",
+      "Bre": "France"
+    },
+    "unitsByPlayer": {
+      "Turkey": {
+        "Ser": "A",
+        "Bul": "A",
+        "AEG": "F",
+        "Con": "F"
+      },
+      "England": {
+        "Bel": "A",
+        "NTH": "F",
+        "Hol": "F",
+        "Edi": "A",
+        "Lon": "F",
+        "IRI": "F",
+        "Kie": "F"
+      },
+      "France": {
+        "Bur": "A",
+        "Pic": "A",
+        "Spa": "A",
+        "Bre": "F",
+        "Mun": "A",
+        "MAO": "F"
+      },
+      "Austria": {
+        "Tri": "A",
+        "ION": "F",
+        "Alb": "A"
+      },
+      "Italy": {
+        "Ven": "A",
+        "Gre": "F",
+        "Pie": "A",
+        "Tun": "F"
+      },
+      "Russia": {
+        "Sev": "F",
+        "Rum": "A",
+        "Vie": "A",
+        "Swe": "F",
+        "Nwy": "F",
+        "Gal": "A",
+        "Ber": "A",
+        "Bud": "A"
+      }
+    },
+    "orders": {
+      "Turkey": {
+        "Ser": {
+          "to": "Gre",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "AEG"
+        },
+        "Bul": {
+          "to": "Gre",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "AEG"
+        },
+        "AEG": {
+          "to": "Gre",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Con": {
+          "to": "BLA",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        }
+      },
+      "Italy": {
+        "Ven": {
+          "to": "Tri",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Gre": {
+          "to": "Alb",
+          "type": "MOVE",
+          "result": "FAILS",
+          "retreat": {
+            "to": "ION",
+            "type": "MOVE",
+            "result": "SUCCEEDS"
+          },
+          "result_reason": "Attack strength is not greater than the defend strength"
+        },
+        "Pie": {
+          "to": "Mar",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the prevent strength"
+        },
+        "Tun": {
+          "to": "WES",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        }
+      },
+      "France": {
+        "Bur": {
+          "to": "Bel",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Pic"
+        },
+        "Pic": {
+          "to": "Bel",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the defend strength"
+        },
+        "Spa": {
+          "to": "Mar",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the prevent strength"
+        },
+        "Bre": {
+          "to": "ENG",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the prevent strength"
+        },
+        "Mun": {
+          "to": "Kie",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "MAO": {
+          "to": "ENG",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Bre"
+        }
+      },
+      "Austria": {
+        "Tri": {
+          "type": "HOLD",
+          "result": "FAILS",
+          "retreat": {
+            "to": "Tyr",
+            "type": "MOVE",
+            "result": "SUCCEEDS"
+          },
+          "result_reason": "Insufficient hold strength"
+        },
+        "ION": {
+          "to": "Nap",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Alb": {
+          "from": "Tri",
+          "type": "SUPPORT",
+          "result": "FAILS",
+          "result_reason": "Disrupted"
+        }
+      },
+      "England": {
+        "Bel": {
+          "type": "HOLD",
+          "result": "SUCCEEDS",
+          "result_reason": "Stronger defense"
+        },
+        "NTH": {
+          "to": "ENG",
+          "result_reason": "Disrupted",
+          "type": "SUPPORT",
+          "result": "FAILS",
+          "from": "Lon"
+        },
+        "Hol": {
+          "from": "Bel",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Edi": {
+          "to": "Lvp",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Lon": {
+          "to": "ENG",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the prevent strength"
+        },
+        "IRI": {
+          "to": "ENG",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Lon"
+        },
+        "Kie": {
+          "to": "Den",
+          "type": "MOVE",
+          "result": "FAILS",
+          "retreat": {
+            "to": "HEL",
+            "type": "MOVE",
+            "result": "SUCCEEDS"
+          },
+          "result_reason": "Attack strength is not greater than the prevent strength"
+        }
+      },
+      "Russia": {
+        "Sev": {
+          "from": "Rum",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Rum": {
+          "from": "Bud",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Vie": {
+          "to": "Tri",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Ven"
+        },
+        "Swe": {
+          "to": "Den",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the prevent strength"
+        },
+        "Nwy": {
+          "to": "NTH",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the defend strength"
+        },
+        "Gal": {
+          "to": "Sil",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Ber": {
+          "to": "Kie",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Mun"
+        },
+        "Bud": {
+          "to": "Tri",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Ven"
+        }
+      }
+    }
+  },
+  {
+    "url": "https://www.backstabbr.com/game/Major-Major-Major-Major/5694328282808320/1904/winter",
+    "territories": {
+      "Par": "France",
+      "Smy": "Turkey",
+      "Hol": "England",
+      "Swe": "Russia",
+      "Nap": "Austria",
+      "Gre": "Turkey",
+      "Ven": "Italy",
+      "Mun": "France",
+      "War": "Russia",
+      "Lvp": "England",
+      "Mar": "France",
+      "Rum": "Russia",
+      "Mos": "Russia",
+      "Bul": "Turkey",
+      "Bud": "Russia",
+      "Tri": "Italy",
+      "Tun": "Italy",
+      "Bel": "England",
+      "Lon": "England",
+      "Stp": "Russia",
+      "Den": "England",
+      "Ber": "Russia",
+      "Con": "Turkey",
+      "Sev": "Russia",
+      "Rom": "Italy",
+      "Vie": "Russia",
+      "Edi": "England",
+      "Por": "France",
+      "Nwy": "Russia",
+      "Ank": "Turkey",
+      "Kie": "France",
+      "Ser": "Turkey",
+      "Spa": "France",
+      "Bre": "France"
+    },
+    "unitsByPlayer": {
+      "Turkey": {
+        "Gre": "F",
+        "BLA": "F",
+        "Ser": "A",
+        "Bul": "A"
+      },
+      "Italy": {
+        "Tri": "A",
+        "WES": "F",
+        "Pie": "A",
+        "ION": "F"
+      },
+      "France": {
+        "Bur": "A",
+        "Pic": "A",
+        "Kie": "A",
+        "Spa": "A",
+        "Bre": "F",
+        "MAO": "F"
+      },
+      "Austria": {
+        "Nap": "F",
+        "Alb": "A",
+        "Tyr": "A"
+      },
+      "England": {
+        "Lvp": "A",
+        "Bel": "A",
+        "NTH": "F",
+        "Hol": "F",
+        "Lon": "F",
+        "IRI": "F",
+        "HEL": "F"
+      },
+      "Russia": {
+        "Sev": "F",
+        "Rum": "A",
+        "Vie": "A",
+        "Swe": "F",
+        "Nwy": "F",
+        "Ber": "A",
+        "Bud": "A",
+        "Sil": "A"
+      }
+    },
+    "orders": {
+      "Turkey": {
+        "Smy": {
+          "unit_type": "F",
+          "type": "BUILD",
+          "result": "SUCCEEDS"
+        },
+        "Ank": {
+          "unit_type": "A",
+          "type": "BUILD",
+          "result": "SUCCEEDS"
+        }
+      },
+      "Austria": {
+        "Alb": {
+          "type": "DISBAND",
+          "result": "SUCCEEDS"
+        },
+        "Tyr": {
+          "type": "DISBAND",
+          "result": "SUCCEEDS"
+        }
+      },
+      "England": {
+        "Lvp": {
+          "type": "DISBAND",
+          "result": "SUCCEEDS"
+        }
+      },
+      "Russia": {
+        "Stp": {
+          "unit_type": "F",
+          "type": "BUILD",
+          "result": "SUCCEEDS",
+          "coast": "nc"
+        },
+        "War": {
+          "unit_type": "A",
+          "type": "BUILD",
+          "result": "SUCCEEDS"
+        }
+      },
+      "France": {
+        "Mar": {
+          "unit_type": "F",
+          "type": "BUILD",
+          "result": "SUCCEEDS"
+        }
+      }
+    }
+  },
+  {
+    "url": "https://www.backstabbr.com/game/Major-Major-Major-Major/5694328282808320/1903/spring",
+    "territories": {
+      "Par": "France",
+      "Smy": "Turkey",
+      "Hol": "Germany",
+      "Swe": "Russia",
+      "Nap": "Italy",
+      "Gre": "Austria",
+      "Ven": "Italy",
+      "Mun": "Germany",
+      "War": "Russia",
+      "Lvp": "England",
+      "Mar": "France",
+      "Rum": "Russia",
+      "Mos": "Russia",
+      "Bul": "Turkey",
+      "Bud": "Austria",
+      "Tri": "Austria",
+      "Tun": "Italy",
+      "Bel": "England",
+      "Lon": "England",
+      "Stp": "Russia",
+      "Den": "England",
+      "Ber": "Germany",
+      "Con": "Turkey",
+      "Sev": "Russia",
+      "Rom": "Italy",
+      "Vie": "Russia",
+      "Edi": "England",
+      "Por": "France",
+      "Nwy": "Russia",
+      "Ank": "Turkey",
+      "Kie": "Germany",
+      "Ser": "Austria",
+      "Spa": "France",
+      "Bre": "France"
+    },
+    "unitsByPlayer": {
+      "Turkey": {
+        "BLA": "F",
+        "Bul": "A",
+        "AEG": "F",
+        "Con": "A"
+      },
+      "Italy": {
+        "ION": "F",
+        "Alb": "F",
+        "Tyr": "A",
+        "Apu": "A"
+      },
+      "France": {
+        "Bur": "A",
+        "Spa": "A",
+        "Par": "A",
+        "Mar": "A",
+        "Bre": "F"
+      },
+      "Austria": {
+        "Tri": "A",
+        "Gre": "F",
+        "Ser": "A",
+        "Bud": "A"
+      },
+      "Germany": {
+        "Ber": "A",
+        "Hol": "F",
+        "Mun": "A",
+        "Kie": "A"
+      },
+      "England": {
+        "NTH": "F",
+        "Lon": "F",
+        "Bel": "A",
+        "Den": "F",
+        "ENG": "F"
+      },
+      "Russia": {
+        "Sev": "F",
+        "Vie": "A",
+        "Mos": "A",
+        "Rum": "A",
+        "Swe": "F",
+        "Nwy": "F",
+        "Gal": "A",
+        "War": "A"
+      }
+    },
+    "orders": {
+      "Turkey": {
+        "BLA": {
+          "to": "Rum",
+          "result_reason": "Disrupted",
+          "type": "SUPPORT",
+          "result": "FAILS",
+          "from": "Bul"
+        },
+        "Bul": {
+          "to": "Rum",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "AEG": {
+          "to": "Gre",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the prevent strength"
+        },
+        "Con": {
+          "to": "Bul",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        }
+      },
+      "England": {
+        "NTH": {
+          "to": "Hol",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Lon": {
+          "to": "NTH",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Den": {
+          "to": "Kie",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the defend strength"
+        },
+        "Bel": {
+          "to": "Hol",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "NTH"
+        },
+        "ENG": {
+          "from": "Bel",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        }
+      },
+      "France": {
+        "Bur": {
+          "type": "HOLD",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Spa": {
+          "type": "HOLD",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Par": {
+          "type": "HOLD",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Mar": {
+          "type": "HOLD",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Bre": {
+          "type": "HOLD",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        }
+      },
+      "Austria": {
+        "Tri": {
+          "to": "Alb",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Gre"
+        },
+        "Gre": {
+          "to": "Alb",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the head to head strength"
+        },
+        "Ser": {
+          "to": "Rum",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Bul"
+        },
+        "Bud": {
+          "from": "Bul",
+          "result_reason": "Displaced",
+          "to": "Rum",
+          "result": "FAILS",
+          "type": "SUPPORT",
+          "retreat": {
+            "to": {},
+            "type": "DISBAND",
+            "result": "SUCCEEDS"
+          }
+        }
+      },
+      "Germany": {
+        "Ber": {
+          "type": "HOLD",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Hol": {
+          "type": "HOLD",
+          "result": "FAILS",
+          "retreat": {
+            "to": "HEL",
+            "type": "MOVE",
+            "result": "SUCCEEDS"
+          },
+          "result_reason": "Insufficient hold strength"
+        },
+        "Mun": {
+          "type": "HOLD",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Kie": {
+          "type": "HOLD",
+          "result": "SUCCEEDS",
+          "result_reason": "Stronger defense"
+        }
+      },
+      "Italy": {
+        "ION": {
+          "to": "Gre",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Alb"
+        },
+        "Alb": {
+          "to": "Gre",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the head to head strength"
+        },
+        "Tyr": {
+          "to": "Ven",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Apu"
+        },
+        "Apu": {
+          "to": "Ven",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        }
+      },
+      "Russia": {
+        "Sev": {
+          "to": "BLA",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the defend strength"
+        },
+        "Rum": {
+          "to": "Bud",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Mos": {
+          "to": "Ukr",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Vie": {
+          "to": "Bud",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Rum"
+        },
+        "Swe": {
+          "from": "Nwy",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Nwy": {
+          "from": "Swe",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Gal": {
+          "to": "Bud",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Rum"
+        },
+        "War": {
+          "to": "Sil",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        }
+      }
+    }
+  },
+  {
+    "url": "https://www.backstabbr.com/game/Major-Major-Major-Major/5694328282808320/1903/fall",
+    "territories": {
+      "Par": "France",
+      "Smy": "Turkey",
+      "Hol": "Germany",
+      "Swe": "Russia",
+      "Nap": "Italy",
+      "Gre": "Austria",
+      "Ven": "Italy",
+      "Mun": "Germany",
+      "War": "Russia",
+      "Lvp": "England",
+      "Mar": "France",
+      "Rum": "Russia",
+      "Mos": "Russia",
+      "Bul": "Turkey",
+      "Bud": "Austria",
+      "Tri": "Austria",
+      "Tun": "Italy",
+      "Bel": "England",
+      "Lon": "England",
+      "Stp": "Russia",
+      "Den": "England",
+      "Ber": "Germany",
+      "Con": "Turkey",
+      "Sev": "Russia",
+      "Rom": "Italy",
+      "Vie": "Russia",
+      "Edi": "England",
+      "Por": "France",
+      "Nwy": "Russia",
+      "Ank": "Turkey",
+      "Kie": "Germany",
+      "Ser": "Austria",
+      "Spa": "France",
+      "Bre": "France"
+    },
+    "unitsByPlayer": {
+      "Turkey": {
+        "BLA": "F",
+        "AEG": "F",
+        "Bul": "A",
+        "Rum": "A"
+      },
+      "Italy": {
+        "Ven": "A",
+        "ION": "F",
+        "Alb": "F",
+        "Tyr": "A"
+      },
+      "France": {
+        "Bur": "A",
+        "Spa": "A",
+        "Par": "A",
+        "Mar": "A",
+        "Bre": "F"
+      },
+      "Austria": {
+        "Tri": "A",
+        "Gre": "F",
+        "Ser": "A"
+      },
+      "Germany": {
+        "Ber": "A",
+        "HEL": "F",
+        "Mun": "A",
+        "Kie": "A"
+      },
+      "England": {
+        "NTH": "F",
+        "Hol": "F",
+        "Den": "F",
+        "Bel": "A",
+        "ENG": "F"
+      },
+      "Russia": {
+        "Sev": "F",
+        "Vie": "A",
+        "Swe": "F",
+        "Nwy": "F",
+        "Ukr": "A",
+        "Gal": "A",
+        "Bud": "A",
+        "Sil": "A"
+      }
+    },
+    "orders": {
+      "Turkey": {
+        "BLA": {
+          "from": "Rum",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Bul": {
+          "from": "Rum",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "AEG": {
+          "to": "Gre",
+          "result_reason": "Invalid Order",
+          "type": "SUPPORT",
+          "result": "FAILS",
+          "from": "Alb"
+        },
+        "Rum": {
+          "type": "HOLD",
+          "result": "SUCCEEDS",
+          "result_reason": "Stronger defense"
+        }
+      },
+      "England": {
+        "NTH": {
+          "from": "Den",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Hol": {
+          "to": "Kie",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Den"
+        },
+        "Den": {
+          "to": "Kie",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Bel": {
+          "from": "Hol",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "ENG": {
+          "from": "Bel",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        }
+      },
+      "France": {
+        "Bur": {
+          "to": "Mun",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Spa": {
+          "type": "HOLD",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Par": {
+          "to": "Pic",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Mar": {
+          "to": "Bur",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Bre": {
+          "to": "MAO",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        }
+      },
+      "Austria": {
+        "Tri": {
+          "to": "Bud",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the defend strength"
+        },
+        "Gre": {
+          "type": "HOLD",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Ser": {
+          "to": "Bud",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Tri"
+        }
+      },
+      "Germany": {
+        "Ber": {
+          "type": "HOLD",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "HEL": {
+          "type": "HOLD",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Mun": {
+          "type": "HOLD",
+          "result": "FAILS",
+          "retreat": {
+            "to": {},
+            "type": "DISBAND",
+            "result": "SUCCEEDS"
+          },
+          "result_reason": "Insufficient hold strength"
+        },
+        "Kie": {
+          "type": "HOLD",
+          "result": "FAILS",
+          "retreat": {
+            "to": {},
+            "type": "DISBAND",
+            "result": "SUCCEEDS"
+          },
+          "result_reason": "Insufficient hold strength"
+        }
+      },
+      "Italy": {
+        "Ven": {
+          "type": "HOLD",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "ION": {
+          "type": "HOLD",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Alb": {
+          "type": "HOLD",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Tyr": {
+          "type": "HOLD",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        }
+      },
+      "Russia": {
+        "Sev": {
+          "to": "Rum",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Ukr"
+        },
+        "Vie": {
+          "from": "Bud",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Swe": {
+          "from": "Nwy",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Ukr": {
+          "to": "Rum",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the defend strength"
+        },
+        "Nwy": {
+          "from": "Swe",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Gal": {
+          "to": "Rum",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Ukr"
+        },
+        "Bud": {
+          "to": "Rum",
+          "result_reason": "Disrupted",
+          "type": "SUPPORT",
+          "result": "FAILS",
+          "from": "Ukr"
+        },
+        "Sil": {
+          "to": "Mun",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Bur"
+        }
+      }
+    }
+  },
+  {
+    "url": "https://www.backstabbr.com/game/Major-Major-Major-Major/5694328282808320/1903/winter",
+    "territories": {
+      "Par": "France",
+      "Smy": "Turkey",
+      "Hol": "England",
+      "Lon": "England",
+      "Nap": "Italy",
+      "Gre": "Austria",
+      "Ven": "Italy",
+      "Mun": "France",
+      "War": "Russia",
+      "Mar": "France",
+      "Rum": "Turkey",
+      "Mos": "Russia",
+      "Tun": "Italy",
+      "Bud": "Russia",
+      "Tri": "Austria",
+      "Bul": "Turkey",
+      "Lvp": "England",
+      "Bel": "England",
+      "Swe": "Russia",
+      "Stp": "Russia",
+      "Den": "England",
+      "Ber": "Germany",
+      "Con": "Turkey",
+      "Sev": "Russia",
+      "Rom": "Italy",
+      "Vie": "Russia",
+      "Edi": "England",
+      "Por": "France",
+      "Nwy": "Russia",
+      "Ank": "Turkey",
+      "Kie": "England",
+      "Ser": "Austria",
+      "Spa": "France",
+      "Bre": "France"
+    },
+    "unitsByPlayer": {
+      "Turkey": {
+        "BLA": "F",
+        "AEG": "F",
+        "Bul": "A",
+        "Rum": "A"
+      },
+      "Italy": {
+        "Ven": "A",
+        "ION": "F",
+        "Alb": "F",
+        "Tyr": "A"
+      },
+      "France": {
+        "Bur": "A",
+        "Spa": "A",
+        "Mun": "A",
+        "MAO": "F",
+        "Pic": "A"
+      },
+      "Austria": {
+        "Tri": "A",
+        "Gre": "F",
+        "Ser": "A"
+      },
+      "Germany": {
+        "Ber": "A",
+        "HEL": "F"
+      },
+      "England": {
+        "NTH": "F",
+        "Hol": "F",
+        "Kie": "F",
+        "Bel": "A",
+        "ENG": "F"
+      },
+      "Russia": {
+        "Sev": "F",
+        "Vie": "A",
+        "Swe": "F",
+        "Nwy": "F",
+        "Ukr": "A",
+        "Gal": "A",
+        "Bud": "A",
+        "Sil": "A"
+      }
+    },
+    "orders": {
+      "Germany": {
+        "HEL": {
+          "type": "DISBAND",
+          "result": "SUCCEEDS"
+        }
+      },
+      "England": {
+        "Edi": {
+          "unit_type": "A",
+          "type": "BUILD",
+          "result": "SUCCEEDS"
+        },
+        "Lon": {
+          "unit_type": "F",
+          "type": "BUILD",
+          "result": "SUCCEEDS"
+        }
+      },
+      "France": {
+        "Bre": {
+          "unit_type": "F",
+          "type": "BUILD",
+          "result": "SUCCEEDS"
+        }
+      }
+    }
+  },
+  {
+    "url": "https://www.backstabbr.com/game/Major-Major-Major-Major/5694328282808320/1902/spring",
+    "territories": {
+      "Par": "France",
+      "Smy": "Turkey",
+      "Hol": "Germany",
+      "Lon": "England",
+      "Nap": "Italy",
+      "Ven": "Italy",
+      "Mun": "Germany",
+      "War": "Russia",
+      "Mar": "France",
+      "Rum": "Russia",
+      "Mos": "Russia",
+      "Tun": "Italy",
+      "Bul": "Turkey",
+      "Bud": "Austria",
+      "Tri": "Austria",
+      "Lvp": "England",
+      "Bel": "Germany",
+      "Swe": "Russia",
+      "Stp": "Russia",
+      "Den": "Germany",
+      "Ber": "Germany",
+      "Con": "Turkey",
+      "Sev": "Russia",
+      "Rom": "Italy",
+      "Vie": "Austria",
+      "Edi": "England",
+      "Por": "France",
+      "Nwy": "England",
+      "Ank": "Turkey",
+      "Kie": "Germany",
+      "Ser": "Austria",
+      "Bre": "France"
+    },
+    "unitsByPlayer": {
+      "Turkey": {
+        "BLA": "F",
+        "Bul": "A",
+        "Smy": "F",
+        "Con": "A"
+      },
+      "Italy": {
+        "Ven": "F",
+        "ION": "F",
+        "Tun": "A",
+        "Tyr": "A"
+      },
+      "France": {
+        "Bur": "A",
+        "Par": "A",
+        "Por": "A",
+        "Bre": "F"
+      },
+      "Austria": {
+        "Tri": "A",
+        "Alb": "F",
+        "Ser": "A",
+        "Vie": "A"
+      },
+      "Germany": {
+        "Bel": "A",
+        "Hol": "F",
+        "Den": "A",
+        "Ber": "A",
+        "Mun": "A",
+        "Kie": "A"
+      },
+      "England": {
+        "Pic": "A",
+        "Lon": "F",
+        "Nwy": "F",
+        "ENG": "F"
+      },
+      "Russia": {
+        "Sev": "F",
+        "Rum": "A",
+        "Swe": "F",
+        "Gal": "A",
+        "Stp": {
+          "type": "F",
+          "coast": "nc"
+        },
+        "War": "A"
+      }
+    },
+    "orders": {
+      "Turkey": {
+        "BLA": {
+          "type": "HOLD",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Bul": {
+          "to": "Ser",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Smy": {
+          "to": "AEG",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Con": {
+          "to": "Bul",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        }
+      },
+      "England": {
+        "Pic": {
+          "to": "Bel",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Lon": {
+          "to": "NTH",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Nwy": {
+          "to": "SKA",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "ENG": {
+          "to": "Bel",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Pic"
+        }
+      },
+      "France": {
+        "Bur": {
+          "to": "Bel",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Pic"
+        },
+        "Par": {
+          "from": "Bur",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Por": {
+          "to": "Spa",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Bre": {
+          "type": "HOLD",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        }
+      },
+      "Austria": {
+        "Tri": {
+          "to": "Bud",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Vie"
+        },
+        "Alb": {
+          "to": "Gre",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Ser": {
+          "from": "Alb",
+          "result_reason": "Disrupted",
+          "to": "Gre",
+          "result": "FAILS",
+          "type": "SUPPORT",
+          "retreat": {
+            "to": "Alb",
+            "type": "MOVE",
+            "result": "SUCCEEDS"
+          }
+        },
+        "Vie": {
+          "to": "Bud",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        }
+      },
+      "Germany": {
+        "Bel": {
+          "type": "HOLD",
+          "result": "FAILS",
+          "retreat": {
+            "to": "Ruh",
+            "type": "MOVE",
+            "result": "SUCCEEDS"
+          },
+          "result_reason": "Insufficient hold strength"
+        },
+        "Hol": {
+          "type": "HOLD",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Den": {
+          "type": "HOLD",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Ber": {
+          "type": "HOLD",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Mun": {
+          "type": "HOLD",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Kie": {
+          "type": "HOLD",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        }
+      },
+      "Italy": {
+        "Ven": {
+          "to": "ADR",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "ION": {
+          "to": "Apu",
+          "result_reason": "Unchallenged",
+          "type": "CONVOY",
+          "result": "SUCCEEDS",
+          "from": "Tun"
+        },
+        "Tyr": {
+          "to": "Ven",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Tun": {
+          "to": "Apu",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        }
+      },
+      "Russia": {
+        "Sev": {
+          "from": "Rum",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Rum": {
+          "to": "Ser",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Bul"
+        },
+        "Swe": {
+          "to": "Nwy",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Stp"
+        },
+        "Gal": {
+          "to": "Vie",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Stp": {
+          "to": "Nwy",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "War": {
+          "to": "Sil",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        }
+      }
+    }
+  },
+  {
+    "url": "https://www.backstabbr.com/game/Major-Major-Major-Major/5694328282808320/1902/fall",
+    "territories": {
+      "Par": "France",
+      "Smy": "Turkey",
+      "Hol": "Germany",
+      "Lon": "England",
+      "Nap": "Italy",
+      "Ven": "Italy",
+      "Mun": "Germany",
+      "War": "Russia",
+      "Mar": "France",
+      "Rum": "Russia",
+      "Mos": "Russia",
+      "Tun": "Italy",
+      "Bul": "Turkey",
+      "Bud": "Austria",
+      "Tri": "Austria",
+      "Lvp": "England",
+      "Bel": "Germany",
+      "Swe": "Russia",
+      "Stp": "Russia",
+      "Den": "Germany",
+      "Ber": "Germany",
+      "Con": "Turkey",
+      "Sev": "Russia",
+      "Rom": "Italy",
+      "Vie": "Austria",
+      "Edi": "England",
+      "Por": "France",
+      "Nwy": "England",
+      "Ank": "Turkey",
+      "Kie": "Germany",
+      "Ser": "Austria",
+      "Bre": "France"
+    },
+    "unitsByPlayer": {
+      "Turkey": {
+        "Bul": "A",
+        "BLA": "F",
+        "Ser": "A",
+        "AEG": "F"
+      },
+      "Italy": {
+        "Ven": "A",
+        "ION": "F",
+        "ADR": "F",
+        "Apu": "A"
+      },
+      "France": {
+        "Bur": "A",
+        "Spa": "A",
+        "Par": "A",
+        "Bre": "F"
+      },
+      "Austria": {
+        "Tri": "A",
+        "Gre": "F",
+        "Alb": "A",
+        "Bud": "A"
+      },
+      "Germany": {
+        "Ruh": "A",
+        "Hol": "F",
+        "Den": "A",
+        "Ber": "A",
+        "Mun": "A",
+        "Kie": "A"
+      },
+      "England": {
+        "NTH": "F",
+        "SKA": "F",
+        "Bel": "A",
+        "ENG": "F"
+      },
+      "Russia": {
+        "Sev": "F",
+        "Vie": "A",
+        "Rum": "A",
+        "Swe": "F",
+        "Nwy": "F",
+        "Sil": "A"
+      }
+    },
+    "orders": {
+      "Turkey": {
+        "BLA": {
+          "to": "Sev",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the defend strength"
+        },
+        "Bul": {
+          "to": "Rum",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the defend strength"
+        },
+        "AEG": {
+          "type": "HOLD",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Ser": {
+          "from": "Bul",
+          "result_reason": "Disrupted",
+          "to": "Rum",
+          "result": "FAILS",
+          "type": "SUPPORT",
+          "retreat": {
+            "to": {},
+            "type": "DISBAND",
+            "result": "SUCCEEDS"
+          }
+        }
+      },
+      "England": {
+        "NTH": {
+          "to": "Den",
+          "result_reason": "Disrupted",
+          "type": "SUPPORT",
+          "result": "FAILS",
+          "from": "SKA"
+        },
+        "SKA": {
+          "to": "Den",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Bel": {
+          "to": "Hol",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the defend strength"
+        },
+        "ENG": {
+          "from": "Bel",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        }
+      },
+      "France": {
+        "Bur": {
+          "type": "HOLD",
+          "result": "SUCCEEDS",
+          "result_reason": "Stronger defense"
+        },
+        "Spa": {
+          "type": "HOLD",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Par": {
+          "from": "Bur",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Bre": {
+          "type": "HOLD",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        }
+      },
+      "Austria": {
+        "Tri": {
+          "to": "Ser",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Alb"
+        },
+        "Gre": {
+          "type": "HOLD",
+          "result": "SUCCEEDS",
+          "result_reason": "Stronger defense"
+        },
+        "Alb": {
+          "to": "Ser",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Bud": {
+          "from": "Rum",
+          "type": "SUPPORT",
+          "result": "FAILS",
+          "result_reason": "Disrupted"
+        }
+      },
+      "Germany": {
+        "Ruh": {
+          "to": "Bur",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Mun"
+        },
+        "Hol": {
+          "to": "NTH",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the defend strength"
+        },
+        "Den": {
+          "type": "HOLD",
+          "result": "FAILS",
+          "retreat": {
+            "to": {},
+            "type": "DISBAND",
+            "result": "SUCCEEDS"
+          },
+          "result_reason": "Insufficient hold strength"
+        },
+        "Ber": {
+          "from": "Den",
+          "type": "SUPPORT",
+          "result": "FAILS",
+          "result_reason": "Invalid Order"
+        },
+        "Mun": {
+          "to": "Bur",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the defend strength"
+        },
+        "Kie": {
+          "from": "Ruh",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        }
+      },
+      "Italy": {
+        "Ven": {
+          "to": "Tyr",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "ION": {
+          "to": "Gre",
+          "result_reason": "Unchallenged",
+          "type": "CONVOY",
+          "result": "SUCCEEDS",
+          "from": "Apu"
+        },
+        "ADR": {
+          "to": "Alb",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Apu": {
+          "to": "Gre",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the defend strength"
+        }
+      },
+      "Russia": {
+        "Sev": {
+          "from": "Rum",
+          "type": "SUPPORT",
+          "result": "FAILS",
+          "result_reason": "Disrupted"
+        },
+        "Rum": {
+          "to": "Bud",
+          "result_reason": "Disrupted",
+          "type": "SUPPORT",
+          "result": "FAILS",
+          "from": "Vie"
+        },
+        "Vie": {
+          "to": "Bud",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the defend strength"
+        },
+        "Swe": {
+          "to": "Den",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "SKA"
+        },
+        "Nwy": {
+          "from": "Swe",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Sil": {
+          "to": "Gal",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        }
+      }
+    }
+  },
+  {
+    "url": "https://www.backstabbr.com/game/Major-Major-Major-Major/5694328282808320/1902/winter",
+    "territories": {
+      "Par": "France",
+      "Smy": "Turkey",
+      "Hol": "Germany",
+      "Swe": "Russia",
+      "Nap": "Italy",
+      "Gre": "Austria",
+      "Ven": "Italy",
+      "Mun": "Germany",
+      "War": "Russia",
+      "Lvp": "England",
+      "Mar": "France",
+      "Rum": "Russia",
+      "Mos": "Russia",
+      "Bul": "Turkey",
+      "Bud": "Austria",
+      "Tri": "Austria",
+      "Tun": "Italy",
+      "Bel": "England",
+      "Lon": "England",
+      "Stp": "Russia",
+      "Den": "England",
+      "Ber": "Germany",
+      "Con": "Turkey",
+      "Sev": "Russia",
+      "Rom": "Italy",
+      "Vie": "Russia",
+      "Edi": "England",
+      "Por": "France",
+      "Nwy": "Russia",
+      "Ank": "Turkey",
+      "Kie": "Germany",
+      "Ser": "Austria",
+      "Spa": "France",
+      "Bre": "France"
+    },
+    "unitsByPlayer": {
+      "Turkey": {
+        "BLA": "F",
+        "Bul": "A",
+        "AEG": "F"
+      },
+      "Italy": {
+        "ION": "F",
+        "Alb": "F",
+        "Tyr": "A",
+        "Apu": "A"
+      },
+      "France": {
+        "Bur": "A",
+        "Spa": "A",
+        "Par": "A",
+        "Bre": "F"
+      },
+      "Austria": {
+        "Tri": "A",
+        "Gre": "F",
+        "Ser": "A",
+        "Bud": "A"
+      },
+      "Germany": {
+        "Ber": "A",
+        "Ruh": "A",
+        "Mun": "A",
+        "Hol": "F",
+        "Kie": "A"
+      },
+      "England": {
+        "NTH": "F",
+        "Bel": "A",
+        "Den": "F",
+        "ENG": "F"
+      },
+      "Russia": {
+        "Sev": "F",
+        "Vie": "A",
+        "Rum": "A",
+        "Swe": "F",
+        "Nwy": "F",
+        "Gal": "A"
+      }
+    },
+    "orders": {
+      "Turkey": {
+        "Con": {
+          "unit_type": "A",
+          "type": "BUILD",
+          "result": "SUCCEEDS"
+        }
+      },
+      "Germany": {
+        "Ruh": {
+          "type": "DISBAND",
+          "result": "SUCCEEDS"
+        }
+      },
+      "England": {
+        "Lon": {
+          "unit_type": "F",
+          "type": "BUILD",
+          "result": "SUCCEEDS"
+        }
+      },
+      "Russia": {
+        "Mos": {
+          "unit_type": "A",
+          "type": "BUILD",
+          "result": "SUCCEEDS"
+        },
+        "War": {
+          "unit_type": "A",
+          "type": "BUILD",
+          "result": "SUCCEEDS"
+        }
+      },
+      "France": {
+        "Mar": {
+          "unit_type": "A",
+          "type": "BUILD",
+          "result": "SUCCEEDS"
+        }
+      }
+    }
+  },
+  {
+    "url": "https://www.backstabbr.com/game/Major-Major-Major-Major/5694328282808320/1901/spring",
+    "territories": {
+      "Par": "France",
+      "Smy": "Turkey",
+      "Lon": "England",
+      "Nap": "Italy",
+      "Ven": "Italy",
+      "Mun": "Germany",
+      "War": "Russia",
+      "Mar": "France",
+      "Mos": "Russia",
+      "Kie": "Germany",
+      "Tri": "Austria",
+      "Lvp": "England",
+      "Stp": "Russia",
+      "Ber": "Germany",
+      "Con": "Turkey",
+      "Sev": "Russia",
+      "Rom": "Italy",
+      "Vie": "Austria",
+      "Edi": "England",
+      "Ank": "Turkey",
+      "Bud": "Austria",
+      "Bre": "France"
+    },
+    "unitsByPlayer": {
+      "England": {
+        "Lon": "F",
+        "Lvp": "A",
+        "Edi": "F"
+      },
+      "Austria": {
+        "Tri": "F",
+        "Bud": "A",
+        "Vie": "A"
+      },
+      "Turkey": {
+        "Con": "A",
+        "Ank": "F",
+        "Smy": "A"
+      },
+      "Italy": {
+        "Rom": "A",
+        "Nap": "F",
+        "Ven": "A"
+      },
+      "France": {
+        "Par": "A",
+        "Mar": "A",
+        "Bre": "F"
+      },
+      "Russia": {
+        "Sev": "F",
+        "Stp": {
+          "type": "F",
+          "coast": "sc"
+        },
+        "Mos": "A",
+        "War": "A"
+      },
+      "Germany": {
+        "Ber": "A",
+        "Mun": "A",
+        "Kie": "F"
+      }
+    },
+    "orders": {
+      "Turkey": {
+        "Ank": {
+          "to": "BLA",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the prevent strength"
+        },
+        "Smy": {
+          "to": "Con",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Con": {
+          "to": "Bul",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        }
+      },
+      "Italy": {
+        "Ven": {
+          "type": "HOLD",
+          "result": "SUCCEEDS",
+          "result_reason": "Unchallenged"
+        },
+        "Nap": {
+          "to": "ION",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Rom": {
+          "to": "Apu",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        }
+      },
+      "France": {
+        "Par": {
+          "to": "Bur",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Mar": {
+          "to": "Spa",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Bre": {
+          "to": "MAO",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        }
+      },
+      "Austria": {
+        "Tri": {
+          "to": "Alb",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Bud": {
+          "to": "Ser",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Vie": {
+          "to": "Tri",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        }
+      },
+      "Germany": {
+        "Ber": {
+          "to": "Kie",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Mun": {
+          "to": "Ruh",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Kie": {
+          "to": "Hol",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        }
+      },
+      "England": {
+        "Edi": {
+          "to": "NTH",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Lon": {
+          "to": "ENG",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Lvp": {
+          "to": "Wal",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        }
+      },
+      "Russia": {
+        "Mos": {
+          "to": "Ukr",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Sev": {
+          "to": "BLA",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the prevent strength"
+        },
+        "Stp": {
+          "to": "BOT",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "War": {
+          "to": "Gal",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        }
+      }
+    }
+  },
+  {
+    "url": "https://www.backstabbr.com/game/Major-Major-Major-Major/5694328282808320/1901/fall",
+    "territories": {
+      "Par": "France",
+      "Smy": "Turkey",
+      "Lon": "England",
+      "Nap": "Italy",
+      "Ven": "Italy",
+      "Mun": "Germany",
+      "War": "Russia",
+      "Mar": "France",
+      "Mos": "Russia",
+      "Kie": "Germany",
+      "Tri": "Austria",
+      "Lvp": "England",
+      "Stp": "Russia",
+      "Ber": "Germany",
+      "Con": "Turkey",
+      "Sev": "Russia",
+      "Rom": "Italy",
+      "Vie": "Austria",
+      "Edi": "England",
+      "Ank": "Turkey",
+      "Bud": "Austria",
+      "Bre": "France"
+    },
+    "unitsByPlayer": {
+      "Turkey": {
+        "Ank": "F",
+        "Bul": "A",
+        "Con": "A"
+      },
+      "Italy": {
+        "Ven": "A",
+        "ION": "F",
+        "Apu": "A"
+      },
+      "France": {
+        "Bur": "A",
+        "Spa": "A",
+        "MAO": "F"
+      },
+      "Austria": {
+        "Tri": "A",
+        "Alb": "F",
+        "Ser": "A"
+      },
+      "Germany": {
+        "Ruh": "A",
+        "Hol": "F",
+        "Kie": "A"
+      },
+      "England": {
+        "NTH": "F",
+        "Wal": "A",
+        "ENG": "F"
+      },
+      "Russia": {
+        "Sev": "F",
+        "Gal": "A",
+        "BOT": "F",
+        "Ukr": "A"
+      }
+    },
+    "orders": {
+      "Turkey": {
+        "Ank": {
+          "to": "BLA",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Bul": {
+          "to": "Gre",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the prevent strength"
+        },
+        "Con": {
+          "to": "Bul",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the defend strength"
+        }
+      },
+      "Italy": {
+        "Ven": {
+          "to": "Tyr",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "ION": {
+          "to": "Tun",
+          "result_reason": "Unchallenged",
+          "type": "CONVOY",
+          "result": "SUCCEEDS",
+          "from": "Apu"
+        },
+        "Apu": {
+          "to": "Tun",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        }
+      },
+      "France": {
+        "Bur": {
+          "to": "Bel",
+          "result_reason": "Invalid Order",
+          "type": "SUPPORT",
+          "result": "FAILS",
+          "from": "Wal"
+        },
+        "Spa": {
+          "to": "Por",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "MAO": {
+          "to": "Bre",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        }
+      },
+      "Austria": {
+        "Tri": {
+          "to": "Bud",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the prevent strength"
+        },
+        "Alb": {
+          "to": "Gre",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the prevent strength"
+        },
+        "Ser": {
+          "to": "Bud",
+          "type": "MOVE",
+          "result": "FAILS",
+          "result_reason": "Attack strength is not greater than the prevent strength"
+        }
+      },
+      "Germany": {
+        "Hol": {
+          "to": "Bel",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Ruh"
+        },
+        "Ruh": {
+          "to": "Bel",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Kie": {
+          "to": "Den",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        }
+      },
+      "England": {
+        "NTH": {
+          "to": "Nwy",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Wal": {
+          "to": "Pic",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "ENG": {
+          "to": "Pic",
+          "result_reason": "Unchallenged",
+          "type": "CONVOY",
+          "result": "SUCCEEDS",
+          "from": "Wal"
+        }
+      },
+      "Russia": {
+        "Sev": {
+          "to": "Rum",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Ukr"
+        },
+        "Gal": {
+          "to": "Rum",
+          "result_reason": "Unchallenged",
+          "type": "SUPPORT",
+          "result": "SUCCEEDS",
+          "from": "Ukr"
+        },
+        "BOT": {
+          "to": "Swe",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        },
+        "Ukr": {
+          "to": "Rum",
+          "type": "MOVE",
+          "result": "SUCCEEDS",
+          "result_reason": "Attack strength is greater"
+        }
+      }
+    }
+  },
+  {
+    "url": "https://www.backstabbr.com/game/Major-Major-Major-Major/5694328282808320/1901/winter",
+    "territories": {
+      "Par": "France",
+      "Smy": "Turkey",
+      "Hol": "Germany",
+      "Lon": "England",
+      "Nap": "Italy",
+      "Ven": "Italy",
+      "Mun": "Germany",
+      "War": "Russia",
+      "Mar": "France",
+      "Rum": "Russia",
+      "Mos": "Russia",
+      "Tun": "Italy",
+      "Bul": "Turkey",
+      "Bud": "Austria",
+      "Tri": "Austria",
+      "Lvp": "England",
+      "Bel": "Germany",
+      "Swe": "Russia",
+      "Stp": "Russia",
+      "Den": "Germany",
+      "Ber": "Germany",
+      "Con": "Turkey",
+      "Sev": "Russia",
+      "Rom": "Italy",
+      "Vie": "Austria",
+      "Edi": "England",
+      "Por": "France",
+      "Nwy": "England",
+      "Ank": "Turkey",
+      "Kie": "Germany",
+      "Ser": "Austria",
+      "Bre": "France"
+    },
+    "unitsByPlayer": {
+      "Turkey": {
+        "BLA": "F",
+        "Bul": "A",
+        "Con": "A"
+      },
+      "Italy": {
+        "ION": "F",
+        "Tun": "A",
+        "Tyr": "A"
+      },
+      "France": {
+        "Bur": "A",
+        "Bre": "F",
+        "Por": "A"
+      },
+      "Austria": {
+        "Tri": "A",
+        "Alb": "F",
+        "Ser": "A"
+      },
+      "Germany": {
+        "Hol": "F",
+        "Den": "A",
+        "Bel": "A"
+      },
+      "England": {
+        "Pic": "A",
+        "Nwy": "F",
+        "ENG": "F"
+      },
+      "Russia": {
+        "Sev": "F",
+        "Gal": "A",
+        "Swe": "F",
+        "Rum": "A"
+      }
+    },
+    "orders": {
+      "Turkey": {
+        "Smy": {
+          "unit_type": "F",
+          "type": "BUILD",
+          "result": "SUCCEEDS"
+        }
+      },
+      "Italy": {
+        "Ven": {
+          "unit_type": "F",
+          "type": "BUILD",
+          "result": "SUCCEEDS"
+        }
+      },
+      "France": {
+        "Par": {
+          "unit_type": "A",
+          "type": "BUILD",
+          "result": "SUCCEEDS"
+        }
+      },
+      "Austria": {
+        "Vie": {
+          "unit_type": "A",
+          "type": "BUILD",
+          "result": "SUCCEEDS"
+        }
+      },
+      "Germany": {
+        "Ber": {
+          "unit_type": "A",
+          "type": "BUILD",
+          "result": "SUCCEEDS"
+        },
+        "Mun": {
+          "unit_type": "A",
+          "type": "BUILD",
+          "result": "SUCCEEDS"
+        },
+        "Kie": {
+          "unit_type": "A",
+          "type": "BUILD",
+          "result": "SUCCEEDS"
+        }
+      },
+      "England": {
+        "Lon": {
+          "unit_type": "F",
+          "type": "BUILD",
+          "result": "SUCCEEDS"
+        }
+      },
+      "Russia": {
+        "Stp": {
+          "unit_type": "F",
+          "type": "BUILD",
+          "result": "SUCCEEDS",
+          "coast": "nc"
+        },
+        "War": {
+          "unit_type": "A",
+          "type": "BUILD",
+          "result": "SUCCEEDS"
+        }
+      }
+    }
+  }
+]

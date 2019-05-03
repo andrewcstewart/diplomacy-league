@@ -2,31 +2,31 @@ library(httr)
 library(rvest)
 library(urltools)
 library(V8)
+library(jsonlite)
+library(tidyjson)
+library(glue)
 ctx <- v8()
 
-# 1 ) get player -> country table
+### FUNCTIONS
 
-players.df <- read_html("https://www.backstabbr.com/game/The-Defenestrations-of-Sa/5668161056145408") %>%
-  html_nodes("table") %>%
-  .[[3]] %>%
-  html_table(fill=TRUE) %>%
-  rename(Winner = 2) %>%
-  mutate(Winner = ifelse(Winner == "Winner!", TRUE, FALSE))
+# parse game url
+parse_game_link <- function(.url) {
+  base_url <- urltools::url_parse(.url)  %>% mutate(path="") %>% url_compose()
+  url_parsed <- path(.url) %>% str_split("/") %>% unlist()
+  game_name <- url_parsed[2]
+  game_id <- url_parsed[3]
+  game_path <- url_parsed[1:3] %>% paste0(collapse = '/')
+  history_path <- paste0(game_path, "/ajax/history")
+  list(
+    game_id = game_id,
+    game_name = game_name,
+    base_url = base_url,
+    game_url = url_absolute(game_path, base_url),
+    history_url = url_absolute(history_path, base_url)
+  )
+}
 
-# 2 ) get game history
-
-# read_html("https://www.backstabbr.com/game/The-Defenestrations-of-Sa/5668161056145408/1913/fall")  %>%
-#   html_text(trim=TRUE) %>%
-#   str_extract_all("\\w*var.*;", simplify = FALSE) %>%
-#   map(ctx$eval)
-# 
-# ctx$get('territories')
-# ctx$get('unitsByPlayer')
-# ctx$get('orders')
-# 
-# ctx$get('orders') %>% toJSON()
-
-
+# parse game data for year
 parse_game_year <- function(url) {
   ctx <- v8()
   
@@ -43,86 +43,55 @@ parse_game_year <- function(url) {
   )
 }
 
-
-read_html("https://www.backstabbr.com/game/The-Defenestrations-of-Sa/5668161056145408/1913/fall")  %>%
-  # html_text(trim=TRUE) %>%
-  # html_attrs()
-  # html_nodes("a")  %>% 
-  html_nodes(xpath ='//*[@id="game-history-controls"]') %>%
-  html_nodes("a")  %>%
-  html_attr("href") %>%
-  .[1]
-
-get_url <- function(path) {
-  url_absolute(path, base_url)
+scrape_game <- function(game_url) {
+  game <- parse_game_link(game_url)
+  game_data_path <- file.path("data",paste0(game$game_id,".json"))
+  
+  # get full history
+  read_html(game$history_url) %>%
+    html_nodes("a")  %>%
+    html_attr("href") %>%
+    map_chr(~ url_absolute(.x , game$base_url)) %>%
+    map(parse_game_year) %>%
+    write_json(game_data_path,auto_unbox=TRUE, pretty = TRUE)
 }
 
-# get full history
-history_url <- "https://www.backstabbr.com//game/The-Defenestrations-of-Sa/5668161056145408/ajax/history"
-base_url <- url_parse(history_url) %>% mutate(path="") %>% url_compose()
-data <- read_html("https://www.backstabbr.com//game/The-Defenestrations-of-Sa/5668161056145408/ajax/history") %>%
-  html_nodes("a")  %>%
-  html_attr("href") %>% 
-  map_chr(get_url) %>%
-  # reduce(list)
-  map(parse_game_year)
-
-data %>% 
-  write_json("data2.json", auto_unbox=TRUE, pretty = TRUE)
-
-df <- read_json("data2.json") %>%
-  as.tbl_json() %>%
-  gather_array() %>%
-  spread_values(url = jstring("url")) %>%
-  enter_object('territories') %>% 
-  gather_keys('territory') %>%
-  append_values_string('player') %>%
-  group_by(url,player) %>%
-  summarise(terr_count = n())
+### PARSING
 
 
-library(DBI)
-library(dbplyr)
-# Create an ephemeral in-memory RSQLite database
-# db <- dbConnect(RSQLite::SQLite(), "game.sqlite")
-db <- dbConnect(odbc:: odbc(), 
-                driver = "SQLite Driver",
-                database = "test.sqlite")
+# get all game links
+# https://www.backstabbr.com/game/Vercingetorix/5393551035203584  # EARLY DRAW
+game1 <- "https://www.backstabbr.com/game/THE-MEAT-GRINDER/6298332016672768"
+game2 <- "https://www.backstabbr.com/game/The-Defenestrations-of-Sa/5668161056145408"
+game3 <- "https://www.backstabbr.com/game/Milo-Minderbinder/5636021098643456"
+game4 <- "https://www.backstabbr.com/game/Major-Major-Major-Major/5694328282808320"
+game5 <- "https://www.backstabbr.com/game/Lajos-Kossuth-Chute/5127116224462848"
+game6 <- "https://www.backstabbr.com/game/IM-SORRY-JUSTIN/6329975150477312"
+game7 <- "https://www.backstabbr.com/game/Diplo-Diplo/5841968584720384"
 
-dbWriteTable(conn = db, 
-             name = "territories",
-             df, 
-             overwrite=FALSE,
-             append=TRUE,
-             row.names=FALSE)
-db %>%
-  src_dbi() %>%
-  copy_to(df, 'territories2', overwrite=TRUE, temporary=FALSE)
+scrape_game(game1)
+# scrape_game(game2)
+scrape_game(game3)
+scrape_game(game4)
+scrape_game(game5)
+scrape_game(game6)
+scrape_game(game7)
 
-db %>% 
-  src_dbi() %>%
-  copy_to(players.df, 'players', overwrite=TRUE, temporary=FALSE)
-
-db %>% 
-  src_dbi() %>%
-  tbl("players")
-
-library(ggplot2)
-df %>% 
-  ungroup() %>%
-  mutate(year = as.integer(str_match(url, "19\\d\\d")),
-         turn = str_match(url, "\\w+$")) %>%
-  filter(!is.na(year)) %>%
-  filter(turn=="winter") %>%
-  ggplot(aes(x=year, y=terr_count, color=player)) +
-  geom_line()
+# game <- parse_game_link("https://www.backstabbr.com/game/The-Defenestrations-of-Sa/5668161056145408")
+# game <- parse_game_link(game1)
+# game_data_path <- file.path("data",paste0(game$game_id,".json"))
+# 
+# 
+# # get full history
+# data <- read_html(game$history_url) %>%
+#   html_nodes("a")  %>%
+#   html_attr("href") %>%
+#   map_chr(~ url_absolute(.x , game$base_url)) %>%
+#   map(parse_game_year)
+# 
+# # save game data json
+# data %>%
+#     write_json(game_data_path,auto_unbox=TRUE, pretty = TRUE)
+# 
 
 
-read_json("data2.json") %>%
-  as.tbl_json() %>%
-  gather_array() %>%
-  spread_values(url = jstring("url")) %>%
-  enter_object('unitsByPlayer') %>% 
-  gather_keys('player') %>%
-  json_lengths('units')
-  
